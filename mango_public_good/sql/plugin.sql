@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS `mango_simulation` (
+  `id` int(8) NOT NULL AUTO_INCREMENT,
+  `token` varchar(36) NOT NULL,
+  `game` varchar(50) NOT NULL,
+  `updated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;

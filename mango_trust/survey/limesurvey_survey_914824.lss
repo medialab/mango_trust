@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+ <LimeSurveyDocType>Survey</LimeSurveyDocType>
+ <DBVersion>177</DBVersion>
+ <languages>
+  <language>fr</language>
+ </languages>
+ <groups>
+  <fields>
+   <fieldname>gid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>group_name</fieldname>
+   <fieldname>group_order</fieldname>
+   <fieldname>description</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>randomization_group</fieldname>
+   <fieldname>grelevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <gid><![CDATA[2145]]></gid>
+    <sid><![CDATA[914824]]></sid>
+    <group_name><![CDATA[Déroulement]]></group_name>
+    <group_order><![CDATA[0]]></group_order>
+    <description/>
+    <language><![CDATA[fr]]></language>
+    <randomization_group/>
+    <grelevance/>
+   </row>
+   <row>
+    <gid><![CDATA[2147]]></gid>
+    <sid><![CDATA[914824]]></sid>
+    <group_name><![CDATA[Calculateur de gains]]></group_name>
+    <group_order><![CDATA[1]]></group_order>
+    <description/>
+    <language><![CDATA[fr]]></language>
+    <randomization_group/>
+    <grelevance/>
+   </row>
+   <row>
+    <gid><![CDATA[2148]]></gid>
+    <sid><![CDATA[914824]]></sid>
+    <group_name><![CDATA[Entrez votre décision]]></group_name>
+    <group_order><![CDATA[2]]></group_order>
+    <description/>
+    <language><![CDATA[fr]]></language>
+    <randomization_group/>
+    <grelevance/>
+   </row>
+  </rows>
+ </groups>
+ <questions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[7700]]></qid>
+    <sid><![CDATA[914824]]></sid>
+    <gid><![CDATA[2145]]></gid>
+    <type><![CDATA[X]]></type>
+    <title><![CDATA[question01]]></title>
+    <question><![CDATA[<div id="anim_desc">
+	Dans cette partie, des groupes de 2 participants (vous-même et 1 autre participant) sont formés par tirage au sort. Chaque groupe comporte un participant A et un participant B. Votre rôle (participant A ou B) est indiqué au moment de prendre votre décision.<br />
+	<br />
+	<u><b>Rappel:</b></u> Le participant qui appartient à votre groupe au cours de cette partie <b>est différent</b> de ceux que vous rencontrez dans les autres parties de l'étude.<br />
+	<br />
+	<div style="text-align: left;">
+		<b>Au début de cette partie, chacun des deux participants reçoit 10€. </b><br />
+		<br />
+		<b>Le participant A doit décider combien d’euros pris sur cette somme sont envoyés au participant B. Le montant envoyé par le participant A est multiplié par 3. Ainsi, pour chaque euro que le participant A décide d'envoyer, le participant B reçoit 3€.<br />
+		<br />
+		Le participant B doit ensuite décider du montant renvoyé au participant A. Pour ce faire, avant de connaître la décision du participant A, le participant B doit décider </b><b>de la somme qu'il lui renverra </b><b>pour chacun des montants que le participant A pourrait lui envoyer (tous les nombres entre 1 et 10) . </b></div>
+	<div style="text-align: left;">
+		<div style="text-align: center;">
+			&nbsp;</div>
+		<div style="text-align: left;">
+			Pour mieux comprendre, regardez attentivement l'animation ci-dessous :</div>
+		<div style="text-align: center;">
+			&nbsp;</div>
+	</div>
+</div>
+<div class="deroulement" id="eiContainer">
+	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" height="330" id="ExternalInterfaceExample" width="600"><param name="movie" value="/mango/mango_trust/animations/trust_description_fr.swf" /><param name="quality" value="high" /><param name="allowScriptAccess" value="sameDomain" /><embed align="middle" allowscriptaccess="sameDomain" height="330" loop="false" name="ExternalInterfaceExample" play="true" quality="high" src="/mango/mango_trust/animations/trust_description_fr.swf" type="application/x-shockwave-flash" width="600" wmode="transparent"></embed></object></div>
+]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+   <row>
+    <qid><![CDATA[7702]]></qid>
+    <sid><![CDATA[914824]]></sid>
+    <gid><![CDATA[2147]]></gid>
+    <type><![CDATA[X]]></type>
+    <title><![CDATA[question02]]></title>
+    <question><![CDATA[<div id="eiContainer">
+	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" height="330" id="ExternalInterfaceExample" width="600"><param name="movie" value="/mango/mango_trust/animations/trust_simulation_fr.swf" /><param name="quality" value="high" /><param name="allowScriptAccess" value="sameDomain" /><embed align="middle" allowscriptaccess="sameDomain" height="330" loop="false" name="ExternalInterfaceExample" play="true" quality="high" src="/mango/mango_trust/animations/trust_simulation_fr.swf" type="application/x-shockwave-flash" width="600"></embed></object></div>
+<div class="test_zone">
+	<b>Les essais que vous faites sur cette page n'ont aucune conséquence sur vos gains dans cette partie.</b></div>
+<br />
+<div id="anim_controls">
+	<div class="trust_game_me">
+		<span class="intitule">Montant envoyé par le participant A</span>
+		<div class="controller">
+			<div class="left">
+				<input class="active" id="player0_money_amount" name="player0_money_subtract_amount" readonly="readonly" type="text" value="- " /></div>
+			<div class="right">
+				<input class="btn_plus" name="player0_money_add" onclick="addMoney('me')" onmousedown="this.className='btn_plus_down'" onmouseout="this.className='btn_plus'" onmouseover="this.className='btn_plus_hover'" onmouseup="this.className='btn_plus_hover'" type="button" value=" " /> <input class="btn_minus" name="player0_money_subtract" onclick="subMoney('me')" onmousedown="this.className='btn_minus_down'" onmouseout="this.className='btn_minus'" onmouseover="this.className='btn_minus_hover'" onmouseup="this.className='btn_minus_hover'" type="button" value=" " /></div>
+		</div>
+		<div class="round_button">
+			<input class="cta_transfer" id="cta_transfer" onclick="controlAmount();" onmousedown="this.className='cta_transfer_envoyer_down_fr'" onmouseout="this.className='cta_transfer_envoyer_fr'" onmouseover="this.className='cta_transfer_envoyer_hover_fr'" type="button" value=" " /></div>
+	</div>
+	<div class="trust_game_other">
+		<span class="intitule">Montant renvoyé par le participant B</span>
+		<div class="controller">
+			<div class="left">
+				<input class="active" id="player1_money_amount" name="player1_money_subtract_amount" readonly="readonly" type="text" value="- " /></div>
+			<div class="right">
+				<input class="btn_plus" name="player1_money_add" onclick="addMoney('player1')" onmousedown="this.className='btn_plus_down'" onmouseout="this.className='btn_plus'" onmouseover="this.className='btn_plus_hover'" onmouseup="this.className='btn_plus_hover'" type="button" value=" " /> <input class="btn_minus" name="player1_money_subtract" onclick="subMoney('player1')" onmousedown="this.className='btn_minus_down'" onmouseout="this.className='btn_minus'" onmouseover="this.className='btn_minus_hover'" onmouseup="this.className='btn_minus_hover'" type="button" value=" " /></div>
+		</div>
+		<div class="round_button">
+			<input class="cta_return" id="cta_return" onclick="controlAmount();" onmousedown="this.className='cta_return_renvoyer_down_fr'" onmouseout="this.className='cta_return_renvoyer_fr'" onmouseover="this.className='cta_return_renvoyer_hover_fr'" type="button" value=" " /></div>
+	</div>
+</div>
+<div class="clearer">
+	&nbsp;</div>
+<div class="anim_launch">
+	Entre chaque essai, cliquez sur le bouton "remettre à zéro" ci dessous pour réinitialiser le calculateur.<br />
+	<br />
+	<!-- reset the simulation - access to specific function in order to reset movie and callbacks --><input class="cta_reset_visible" id="cta_reset" onclick="resetMovie();" onmousedown="this.className='cta_reset_down'" onmouseout="this.className='cta_reset_visible'" onmouseover="this.className='cta_reset_hover'" onmouseup="this.className='cta_reset_hover'" type="button" value="remettre à zéro" />
+	<div class="clearer">
+		&nbsp;</div>
+</div>
+<script type="text/javascript">
+	var jsReady					= false;
+	var played					= false;
+	var endOk					= false;
+	var iNumberOfSimulations	= 0;
+
+	function isReady() {
+		return jsReady;
+	}
+
+	// waiting for dom loaded
+	$(document).ready(function() {
+		jsReady = true;
+		deactivateP1();
+		deactivateP2();
+		deactivateTransfer();
+		deactivateReturn();
+	});
+
+	/* table players - with amount */
+	var players = { me: -1, player1: -1 };
+
+	/* table callback - use jquery object for the input textfield */
+	var callbacks = { me: $("#player0_money_amount"), player1: $("#player1_money_amount") };
+
+	function callAlert(msg) {
+		alert(msg);
+	}
+
+	/**
+	 * @return swf movie
+	 */
+	function getMovie() {
+		return document["ExternalInterfaceExample"];
+	}
+
+	/**
+	 * Send to actionscript movie info about a player and its money.
+	 * Player possible values are strings "me","player1","player2","player3".
+	 * Send money values as integer, from 0 to 10. Use players table
+	 * to decrement amount
+	 *
+	 * @param player - identifier for each player
+	 */
+	function subMoney(player) {
+		players[player] = players[player]-1<0?0:players[player]-1;
+		if(played == true) {
+			var callbackValue = players[player];
+		} else {
+			var callbackValue = players[player];
+		}					
+		callbacks[player].val(callbackValue);
+		getMovie().subMoney(player, players[player]);
+	}
+
+	/**
+	 * Send to actionscript movie info about a player and its money.
+	 * Player possible values are strings "me","player1","player2","player3".
+	 * Send money values as integer, from 0 to 10. Use players table
+	 * to increment amount
+	 *
+	 * @param player - identifier for each player
+	 */
+	function addMoney(player) {
+		if(played == true) {
+			var sentMoney = players.me*3;
+			players[player] = players[player]+1>sentMoney?sentMoney:players[player]+1;
+			var callbackValue = players[player];
+			getMovie().addMoney(player, players[player]);
+		} else { 
+			players[player] = players[player]+1>10?10:players[player]+1;
+			getMovie().addMoney(player, players[player]);
+			var callbackValue = players[player];
+		}
+		callbacks[player].val(callbackValue);
+	}
+
+	/**
+	 * Generate random amount values for each player and 
+	 * send them to actionsctipr object
+	 */
+	function randomize() {
+		for (var i in playersToRandom) {
+			var randomnumber = Math.floor(Math.random()*11);
+			playersToRandom[i] = randomnumber;
+			players[i] = randomnumber;
+			callbacks[i].val(playersToRandom[i]);
+			getMovie().setMoney(i, playersToRandom[i]);
+		}
+	}
+
+	function submitMoney() {
+		if(played == false) {
+			var moneyForB = players.me*3;
+			players.player1 = -1;
+			callbacks.player1.val("- ");
+			getMovie().submitMoney();
+			played=true;
+			unamounted=false;
+		} else {
+			getMovie().giveMoneyBack();
+		}                                   
+	}
+
+	/**
+	 * Control if an amount is entered
+	 */
+	function controlAmount() {
+		var unamounted = false;
+		if(played == false) {
+			if(players.me == -1) {
+				unamounted = true;
+			}                                     
+		} else {
+			if(players.player1 == -1) {
+				unamounted = true;
+			}
+		}
+		if (unamounted == true) {
+			alert("To run the simulation, choose an amount for each participant.");
+		} else {
+			submitMoney()
+		}
+	}/*end of control amount*/
+
+	/**
+	 * Control if animation finished playing and alert
+	 */
+	function onAnimPos(animPos) {                                   
+		switch (animPos) {
+			case "ReadyForP1":
+				activateP1();
+				activateTransfer();
+				activateReset();
+				break; 
+			case "transfer1":
+				deactivateP1();
+				deactivateTransfer();
+				deactivateReset();
+				break; 
+			case "ReadyForP2":
+				activateP2();
+				activateReturn();
+				activateReset();
+				break; 
+			case "transfer2":
+				deactivateP2();
+				deactivateReturn();
+				deactivateReset();
+				break; 
+			case "ReadyForRestart":
+				activateReset();
+				break; 
+		}
+	}/*end of sendEndMessage*/
+
+	/*Deactivation functions*/
+	function deactivateP1() {
+		btn_plus_p1 = $('input[name="player0_money_add"]');
+		btn_plus_p1.attr("disabled", true);
+		btn_plus_p1.attr("class", "btn_plus_disabled");
+		btn_moins_p1 = $('input[name="player0_money_subtract"]');
+		btn_moins_p1.attr("disabled", true);
+		btn_moins_p1.attr("class", "btn_minus_disabled");
+		input_p1 = $('#player0_money_amount');
+		input_p1.attr("class", "disabled");
+	}
+
+	function deactivateP2() {
+		btn_plus_p2 = $('input[name="player1_money_add"]');
+		btn_plus_p2.attr("disabled", true);
+		btn_plus_p2.attr("class", "btn_plus_disabled");
+		btn_moins_p2 = $('input[name="player1_money_subtract"]');
+		btn_moins_p2.attr("disabled", true);
+		btn_moins_p2.attr("class", "btn_minus_disabled");
+		input_p2 = $('#player1_money_amount');
+		input_p2.attr("class", "disabled");
+	}
+
+	function deactivateValid() {
+		btn_valid = $('#cta_simulate');
+		btn_valid.attr("disabled", true);
+		btn_valid.attr("class", "cta_simulate_disabled");
+		btn_rstrt = $('#cta_reset');
+		btn_rstrt.attr("disabled", true);
+		btn_rstrt.attr("class", "cta_reset_disabled");
+	}
+
+	function deactivateTransfer() {
+		btn_transfer = $('#cta_transfer');
+		btn_transfer.attr("disabled", true);
+		btn_transfer.attr("class", "cta_transfer_envoyer_disabled_fr");
+	}
+
+	function deactivateReturn() {
+		btn_return = $('#cta_return');
+		btn_return.attr("disabled", true);
+		btn_return.attr("class", "cta_return_renvoyer_disabled_fr");
+	}
+
+	function deactivateReset() {
+		btn_rstrt = $('#cta_');
+		btn_rstrt.attr("disabled", true);
+		btn_rstrt.attr("class", "cta_reset_disabled");
+	}
+
+	 /*Activation functions*/
+	function activateP1() {
+		btn_plus_p1 = $('input[name="player0_money_add"]');
+		btn_plus_p1.attr("disabled", false);
+		btn_plus_p1.attr("class", "btn_plus");
+		btn_moins_p1 = $('input[name="player0_money_subtract"]');
+		btn_moins_p1.attr("disabled", false);
+		btn_moins_p1.attr("class", "btn_minus");
+		input_p1 = $('#player0_money_amount');
+		input_p1.attr("class", "active");
+	}
+
+	function activateP2() {
+		btn_plus_p2 = $('input[name="player1_money_add"]');
+		btn_plus_p2.attr("disabled", false);
+		btn_plus_p2.attr("class", "btn_plus");
+		btn_moins_p2 = $('input[name="player1_money_subtract"]');
+		btn_moins_p2.attr("disabled", false);
+		btn_moins_p2.attr("class", "btn_minus");
+		input_p2 = $('#player1_money_amount');
+		input_p2.attr("class", "active");
+	}
+
+	function activateValid() {
+		btn_valid = $('#cta_simulate');
+		btn_valid.attr("disabled", false);
+		btn_valid.attr("class", "cta_simulate");
+		btn_rstrt = $('#cta_reset');
+		btn_rstrt.attr("disabled", false);
+		btn_rstrt.attr("class", "cta_reset_visible");
+	}
+
+	function activateReset() {
+		btn_rstrt = $('#cta_reset');
+		btn_rstrt.attr("disabled", false);
+		btn_rstrt.attr("class", "cta_reset_visible");
+	}
+
+	function activateTransfer() {
+		btn_transfer = $('#cta_transfer');
+		btn_transfer.attr("disabled", false);
+		btn_transfer.attr("class", "cta_transfer_envoyer_fr");
+	}
+
+	function activateReturn() {
+		btn_return = $('#cta_return');
+		btn_return.attr("disabled", false);
+		btn_return.attr("class", "cta_return_renvoyer_fr");
+	}
+
+	/**
+	 * Reset the movie using the function getMovie().reset()
+	 * reset the callbacks aussi
+	 */
+	function resetMovie() {
+		for (var i in players) {
+			players[i] = -1;
+			callbacks[i].val("- ");
+		}
+		getMovie().animationComplete();
+		played = false;
+		deactivateP1();
+		deactivateP2();
+		deactivateTransfer();
+		deactivateReturn();
+	}
+
+	var help = "<br/>Dans cette partie, des groupes de 2 participants (vous-même et 1 autre   participant) sont formés par tirage au sort. Chaque groupe comporte un   participant A et un participant B. Votre rôle (participant A ou B) est indiqué au moment de prendre votre décision.<br/><br/><u><b>Rappel:</b></u> Le participant qui appartient à votre groupe au  cours de  cette partie <b>est différent</b> de ceux que vous rencontrez dans les autres parties de l'étude.<br/><br/><b>Au début de cette partie, chacun des deux participants reçoit 10€.<br/><br/>Le participant A  doit décider combien d’euros pris  sur cette somme  sont envoyés au participant B. Le montant envoyé par le participant A est multiplié par 3. Ainsi, pour chaque euro que le participant A décide d'envoyer, le participant B reçoit 3€. <br/><br/>Le participant B doit ensuite décider du montant renvoyé au participant A. Pour ce faire, avant de connaître la décision du participant A, le participant B doit décider pour chacun des montants que le participant A pourrait lui envoyer (tous les nombres entre 1 et 10) de la somme qu'il lui renverra.</b><br/><br/><br/><div style='text-align: center;'><b><u>Ainsi, le gain en euros du  participant A pour cette partie est donné par:</u><br/><br/><i>10 - (montant en  euros envoyé au participant B) + (montant en euros renvoyé par le participant B)</i><br/><br/><br/><u>Le gain en euros du participant B pour cette partie est donné par:</u><br/><br/><i>10 + (montant en euros envoyé par le participant A) x3 - (montant en euros renvoyé au participant A)</i></b></div>";
+	$(document).ready(
+		function() {
+			$("#cta_return").click(
+				function(){
+					save_simulation('trust');
+					iNumberOfSimulations++;
+				}
+			);
+			// Force the use to do 3 simulations minimum
+			$('#movenextbtn').click(
+				function() {
+					if(iNumberOfSimulations < 3) {
+						alert('Vous devez faire 3 simulations minimum avant de passer à l\'étape suivante.');
+						return false;
+					}
+				}
+			);
+		}
+	);
+</script>]]></question>
+    <preg/>
+    <help><![CDATA[<span class="aide">Vous pouvez à tout moment consulter les règles du jeu en cliquant sur le bouton "?" (à gauche) </span>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+   <row>
+    <qid><![CDATA[7703]]></qid>
+    <sid><![CDATA[914824]]></sid>
+    <gid><![CDATA[2148]]></gid>
+    <type><![CDATA[K]]></type>
+    <title><![CDATA[question03]]></title>
+    <question><![CDATA[<script type="text/javascript">
+	var help = "<br/>Dans cette partie, des groupes de 2 participants (vous-même et 1 autre   participant) sont formés par tirage au sort. Chaque groupe comporte un   participant A et un participant B. Votre rôle (participant A ou B) est indiqué au moment de prendre votre décision.<br/><br/><u><b>Rappel:</b></u> Le participant qui appartient à votre groupe au  cours de  cette partie <b>est différent</b> de ceux que vous rencontrez dans les autres parties de l'étude.<br/><br/><b>Au début de cette partie, chacun des deux participants reçoit 10€.<br/><br/>Le participant A  doit décider combien d’euros pris  sur cette somme  sont envoyés au participant B. Le montant envoyé par le participant A est multiplié par 3. Ainsi, pour chaque euro que le participant A décide d'envoyer, le participant B reçoit 3€. <br/><br/>Le participant B doit ensuite décider du montant renvoyé au participant A. Pour ce faire, avant de connaître la décision du participant A, le participant B doit décider pour chacun des montants que le participant A pourrait lui envoyer (tous les nombres entre 1 et 10) de la somme qu'il lui renverra.</b><br/><br/><br/><div style='text-align: center;'><b><u>Ainsi, le gain en euros du  participant A pour cette partie est donné par:</u><br/><br/><i>10 - (montant en  euros envoyé au participant B) + (montant en euros renvoyé par le participant B)</i><br/><br/><br/><u>Le gain en euros du participant B pour cette partie est donné par:</u><br/><br/><i>10 + (montant en euros envoyé par le participant A) x3 - (montant en euros renvoyé au participant A)</i></b></div>";
+
+	$(document).ready(
+		function(){
+			$('#anim_sentence').after($('.asterisque'));
+		}
+	);
+</script>
+<div id="anim_sentence" style="text-align: center;">
+	<span style="display: table-cell; vertical-align: middle;"><img alt="" height="32px" src="/upload/surveys/57263/warning.png" width="32px" /> </span> <span style="display: table-cell; vertical-align: middle;"> <strong>Ceci est un écran de décision. Une fois que vous aurez pris votre décision et cliqué sur le bouton "Suivant", vous ne pourrez plus revenir à cet écran.</strong> </span> <span style="display: table-cell; vertical-align: middle;"> <img alt="" height="32px" src="/upload/surveys/57263/warning.png" width="32px" /> </span></div>
+<br />
+Votre rôle est celui du participant A.<br />
+Vous avez 10€ en votre possession. Combien voulez-vous envoyer au participant B?]]></question>
+    <preg/>
+    <help><![CDATA[<span class="aide">Vous pouvez à tout moment consulter le déroulement de cette partie en cliquant ici </span>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+  </rows>
+ </questions>
+ <subquestions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[7704]]></qid>
+    <sid><![CDATA[914824]]></sid>
+    <gid><![CDATA[2148]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[1]]></title>
+    <question/>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[7703]]></parent_qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+   </row>
+  </rows>
+ </subquestions>
+ <surveys>
+  <fields>
+   <fieldname>sid</fieldname>
+   <fieldname>admin</fieldname>
+   <fieldname>expires</fieldname>
+   <fieldname>startdate</fieldname>
+   <fieldname>adminemail</fieldname>
+   <fieldname>anonymized</fieldname>
+   <fieldname>faxto</fieldname>
+   <fieldname>format</fieldname>
+   <fieldname>template</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>additional_languages</fieldname>
+   <fieldname>datestamp</fieldname>
+   <fieldname>usecookie</fieldname>
+   <fieldname>allowregister</fieldname>
+   <fieldname>allowsave</fieldname>
+   <fieldname>autonumber_start</fieldname>
+   <fieldname>autoredirect</fieldname>
+   <fieldname>allowprev</fieldname>
+   <fieldname>printanswers</fieldname>
+   <fieldname>ipaddr</fieldname>
+   <fieldname>refurl</fieldname>
+   <fieldname>publicstatistics</fieldname>
+   <fieldname>publicgraphs</fieldname>
+   <fieldname>listpublic</fieldname>
+   <fieldname>htmlemail</fieldname>
+   <fieldname>tokenanswerspersistence</fieldname>
+   <fieldname>assessments</fieldname>
+   <fieldname>usecaptcha</fieldname>
+   <fieldname>usetokens</fieldname>
+   <fieldname>bounce_email</fieldname>
+   <fieldname>attributedescriptions</fieldname>
+   <fieldname>emailresponseto</fieldname>
+   <fieldname>tokenlength</fieldname>
+   <fieldname>savetimings</fieldname>
+   <fieldname>showxquestions</fieldname>
+   <fieldname>showgroupinfo</fieldname>
+   <fieldname>shownoanswer</fieldname>
+   <fieldname>showqnumcode</fieldname>
+   <fieldname>bouncetime</fieldname>
+   <fieldname>bounceprocessing</fieldname>
+   <fieldname>bounceaccounttype</fieldname>
+   <fieldname>bounceaccounthost</fieldname>
+   <fieldname>bounceaccountpass</fieldname>
+   <fieldname>bounceaccountencryption</fieldname>
+   <fieldname>bounceaccountuser</fieldname>
+   <fieldname>showwelcome</fieldname>
+   <fieldname>showprogress</fieldname>
+   <fieldname>navigationdelay</fieldname>
+   <fieldname>nokeyboard</fieldname>
+   <fieldname>alloweditaftercompletion</fieldname>
+   <fieldname>emailnotificationto</fieldname>
+   <fieldname>googleanalyticsstyle</fieldname>
+   <fieldname>googleanalyticsapikey</fieldname>
+   <fieldname>sendconfirmation</fieldname>
+   <fieldname>questionindex</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <sid><![CDATA[914824]]></sid>
+    <admin><![CDATA[Anne L'Hôte]]></admin>
+    <adminemail><![CDATA[anne.lhote@sciencespo.fr]]></adminemail>
+    <anonymized><![CDATA[N]]></anonymized>
+    <faxto/>
+    <format><![CDATA[G]]></format>
+    <template><![CDATA[mango]]></template>
+    <language><![CDATA[fr]]></language>
+    <additional_languages/>
+    <datestamp><![CDATA[Y]]></datestamp>
+    <usecookie><![CDATA[N]]></usecookie>
+    <allowregister><![CDATA[N]]></allowregister>
+    <allowsave><![CDATA[N]]></allowsave>
+    <autonumber_start><![CDATA[0]]></autonumber_start>
+    <autoredirect><![CDATA[N]]></autoredirect>
+    <allowprev><![CDATA[N]]></allowprev>
+    <printanswers><![CDATA[N]]></printanswers>
+    <ipaddr><![CDATA[N]]></ipaddr>
+    <refurl><![CDATA[Y]]></refurl>
+    <publicstatistics><![CDATA[N]]></publicstatistics>
+    <publicgraphs><![CDATA[N]]></publicgraphs>
+    <listpublic><![CDATA[N]]></listpublic>
+    <htmlemail><![CDATA[Y]]></htmlemail>
+    <tokenanswerspersistence><![CDATA[N]]></tokenanswerspersistence>
+    <assessments><![CDATA[N]]></assessments>
+    <usecaptcha><![CDATA[D]]></usecaptcha>
+    <usetokens><![CDATA[N]]></usetokens>
+    <bounce_email><![CDATA[anne.lhote@sciencespo.fr]]></bounce_email>
+    <emailresponseto/>
+    <tokenlength><![CDATA[15]]></tokenlength>
+    <savetimings><![CDATA[Y]]></savetimings>
+    <showxquestions><![CDATA[Y]]></showxquestions>
+    <showgroupinfo><![CDATA[B]]></showgroupinfo>
+    <shownoanswer><![CDATA[Y]]></shownoanswer>
+    <showqnumcode><![CDATA[X]]></showqnumcode>
+    <bounceprocessing><![CDATA[N]]></bounceprocessing>
+    <showwelcome><![CDATA[N]]></showwelcome>
+    <showprogress><![CDATA[Y]]></showprogress>
+    <navigationdelay><![CDATA[0]]></navigationdelay>
+    <nokeyboard><![CDATA[N]]></nokeyboard>
+    <alloweditaftercompletion><![CDATA[N]]></alloweditaftercompletion>
+    <emailnotificationto/>
+    <googleanalyticsstyle><![CDATA[0]]></googleanalyticsstyle>
+    <googleanalyticsapikey/>
+    <sendconfirmation><![CDATA[Y]]></sendconfirmation>
+    <questionindex><![CDATA[0]]></questionindex>
+   </row>
+  </rows>
+ </surveys>
+ <surveys_languagesettings>
+  <fields>
+   <fieldname>surveyls_survey_id</fieldname>
+   <fieldname>surveyls_language</fieldname>
+   <fieldname>surveyls_title</fieldname>
+   <fieldname>surveyls_description</fieldname>
+   <fieldname>surveyls_welcometext</fieldname>
+   <fieldname>surveyls_endtext</fieldname>
+   <fieldname>surveyls_url</fieldname>
+   <fieldname>surveyls_urldescription</fieldname>
+   <fieldname>surveyls_email_invite_subj</fieldname>
+   <fieldname>surveyls_email_invite</fieldname>
+   <fieldname>surveyls_email_remind_subj</fieldname>
+   <fieldname>surveyls_email_remind</fieldname>
+   <fieldname>surveyls_email_register_subj</fieldname>
+   <fieldname>surveyls_email_register</fieldname>
+   <fieldname>surveyls_email_confirm_subj</fieldname>
+   <fieldname>surveyls_email_confirm</fieldname>
+   <fieldname>surveyls_dateformat</fieldname>
+   <fieldname>email_admin_notification_subj</fieldname>
+   <fieldname>email_admin_responses_subj</fieldname>
+   <fieldname>email_admin_notification</fieldname>
+   <fieldname>email_admin_responses</fieldname>
+   <fieldname>surveyls_numberformat</fieldname>
+   <fieldname>surveyls_attributecaptions</fieldname>
+   <fieldname>attachments</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <surveyls_survey_id><![CDATA[914824]]></surveyls_survey_id>
+    <surveyls_language><![CDATA[fr]]></surveyls_language>
+    <surveyls_title><![CDATA[Coop - Jeu Trust]]></surveyls_title>
+    <surveyls_description/>
+    <surveyls_welcometext/>
+    <surveyls_endtext/>
+    <surveyls_url/>
+    <surveyls_urldescription/>
+    <surveyls_email_invite_subj><![CDATA[Invitation à participer à un questionnaire]]></surveyls_email_invite_subj>
+    <surveyls_email_invite><![CDATA[Cher(e) {FIRSTNAME},<br />
+<br />
+Vous avez été invité à participer à un questionnaire.<br />
+<br />
+Celui-ci est intitulé :<br />
+"{SURVEYNAME}"<br />
+<br />
+"{SURVEYDESCRIPTION}"<br />
+<br />
+Pour participer, veuillez cliquer sur le lien ci-dessous.<br />
+<br />
+Cordialement,<br />
+<br />
+{ADMINNAME} ({ADMINEMAIL})<br />
+<br />
+----------------------------------------------<br />
+Cliquez ici pour remplir ce questionnaire :<br />
+{SURVEYURL}<br />
+<br />
+Si vous ne souhaitez pas participer à ce questionnaire et ne souhaitez plus recevoir aucune invitation, veuillez cliquer sur le lien suivant :<br />
+{OPTOUTURL}<br />
+<br />
+Si vous êtes sur liste noire mais que vous voulez participer à ce questionnaire et recevoir les invitations, merci de cliquer sur le lien suivant :<br />
+{OPTINURL}]]></surveyls_email_invite>
+    <surveyls_email_remind_subj><![CDATA[Rappel pour participer à un questionnaire]]></surveyls_email_remind_subj>
+    <surveyls_email_remind><![CDATA[Cher(e) {FIRSTNAME},<br />
+<br />
+Vous avez été invité(e) à participer à un questionnaire récemment.<br />
+<br />
+Nous avons pris en compte que vous n'avez pas encore complété le questionnaire, et nous vous rappelons que celui-ci est toujours disponible si vous souhaitez participer.<br />
+<br />
+Le questionnaire est intitulé :<br />
+"{SURVEYNAME}"<br />
+<br />
+"{SURVEYDESCRIPTION}"<br />
+<br />
+Pour participer, veuillez cliquer sur le lien ci-dessous.<br />
+<br />
+Cordialement,<br />
+<br />
+{ADMINNAME} ({ADMINEMAIL})<br />
+<br />
+----------------------------------------------<br />
+Cliquez ici pour faire le questionnaire:<br />
+{SURVEYURL}<br />
+<br />
+Si vous ne souhaitez pas participer à ce questionnaire et ne souhaitez plus recevoir aucune invitation, veuillez cliquer sur le lien suivant :<br />
+{OPTOUTURL}]]></surveyls_email_remind>
+    <surveyls_email_register_subj><![CDATA[Confirmation d'enregistrement au questionnaire]]></surveyls_email_register_subj>
+    <surveyls_email_register><![CDATA[Bonjour {FIRSTNAME},<br />
+<br />
+Vous (ou quelqu’un utilisant votre adresse électronique) vous êtes enregistré pour participer à un questionnaire en ligne intitulé {SURVEYNAME}.<br />
+<br />
+Pour compléter ce questionnaire, cliquez sur le lien suivant :<br />
+{SURVEYURL}<br />
+<br />
+Si vous avez des questions à propos de ce questionnaire, ou si vous ne vous êtes pas enregistré pour participer à celui-ci et croyez que ce courriel est une erreur, veuillez contacter {ADMINNAME} à l’adresse {ADMINEMAIL}]]></surveyls_email_register>
+    <surveyls_email_confirm_subj><![CDATA[Confirmation de votre participation à notre questionnaire]]></surveyls_email_confirm_subj>
+    <surveyls_email_confirm><![CDATA[Bonjour {FIRSTNAME},<br />
+<br />
+Ce courriel vous confirme que vous avez complété le questionnaire intitulé {SURVEYNAME} et que votre réponse a été enregistrée. Merci pour votre participation.<br />
+<br />
+Si vous avez des questions à propos de ce courriel, veuillez contacter {ADMINNAME} à l’adresse {ADMINEMAIL}.<br />
+<br />
+Cordialement,<br />
+<br />
+{ADMINNAME}]]></surveyls_email_confirm>
+    <surveyls_dateformat><![CDATA[9]]></surveyls_dateformat>
+    <email_admin_notification_subj><![CDATA[Soumission de réponse pour le questionnaire {SURVEYNAME}]]></email_admin_notification_subj>
+    <email_admin_responses_subj><![CDATA[Soumission de réponse pour le questionnaire {SURVEYNAME} avec résultats]]></email_admin_responses_subj>
+    <email_admin_notification><![CDATA[Bonjour,<br />
+<br />
+Une nouvelle réponse a été soumise pour votre questionnaire '{SURVEYNAME}'.<br />
+<br />
+Cliquer sur le lien suivant pour recharger votre questionnaire :<br />
+{RELOADURL}<br />
+<br />
+Cliquer sur le lien suivant pour voir la réponse :<br />
+{VIEWRESPONSEURL}<br />
+<br />
+Cliquer sur le lien suivant pour éditer la réponse :<br />
+{EDITRESPONSEURL}<br />
+<br />
+Visualiser les statistiques en cliquant ici :<br />
+{STATISTICSURL}<br />
+<br />
+les réponses suivantes ont été données par le participant :<br />
+{ANSWERTABLE}]]></email_admin_notification>
+    <email_admin_responses><![CDATA[Bonjour,<br />
+<br />
+Une nouvelle réponse a été soumise pour votre questionnaire '{SURVEYNAME}'.<br />
+<br />
+Cliquer sur le lien suivant pour recharger votre questionnaire :<br />
+{RELOADURL}<br />
+<br />
+Cliquer sur le lien suivant pour voir la réponse :<br />
+{VIEWRESPONSEURL}<br />
+<br />
+Cliquez sur le lien suivant pour éditer la réponse individuelle :<br />
+{EDITRESPONSEURL}<br />
+<br />
+Visualiser les statistiques en cliquant ici :<br />
+{STATISTICSURL}<br />
+<br />
+<br />
+les réponses suivantes ont été données par le participant :<br />
+{ANSWERTABLE}]]></email_admin_responses>
+    <surveyls_numberformat><![CDATA[0]]></surveyls_numberformat>
+   </row>
+  </rows>
+ </surveys_languagesettings>
+</document>

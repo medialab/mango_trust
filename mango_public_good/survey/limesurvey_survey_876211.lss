@@ -1,0 +1,1053 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+ <LimeSurveyDocType>Survey</LimeSurveyDocType>
+ <DBVersion>177</DBVersion>
+ <languages>
+  <language>fr</language>
+ </languages>
+ <groups>
+  <fields>
+   <fieldname>gid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>group_name</fieldname>
+   <fieldname>group_order</fieldname>
+   <fieldname>description</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>randomization_group</fieldname>
+   <fieldname>grelevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <gid><![CDATA[2127]]></gid>
+    <sid><![CDATA[876211]]></sid>
+    <group_name><![CDATA[Déroulement]]></group_name>
+    <group_order><![CDATA[0]]></group_order>
+    <description/>
+    <language><![CDATA[fr]]></language>
+    <randomization_group/>
+    <grelevance/>
+   </row>
+   <row>
+    <gid><![CDATA[2128]]></gid>
+    <sid><![CDATA[876211]]></sid>
+    <group_name><![CDATA[Exemples]]></group_name>
+    <group_order><![CDATA[1]]></group_order>
+    <description/>
+    <language><![CDATA[fr]]></language>
+    <randomization_group/>
+    <grelevance/>
+   </row>
+   <row>
+    <gid><![CDATA[2129]]></gid>
+    <sid><![CDATA[876211]]></sid>
+    <group_name><![CDATA[Calculateur de gains]]></group_name>
+    <group_order><![CDATA[2]]></group_order>
+    <description/>
+    <language><![CDATA[fr]]></language>
+    <randomization_group/>
+    <grelevance/>
+   </row>
+   <row>
+    <gid><![CDATA[2130]]></gid>
+    <sid><![CDATA[876211]]></sid>
+    <group_name><![CDATA[Comment entrer votre décision?]]></group_name>
+    <group_order><![CDATA[3]]></group_order>
+    <description/>
+    <language><![CDATA[fr]]></language>
+    <randomization_group/>
+    <grelevance/>
+   </row>
+   <row>
+    <gid><![CDATA[2131]]></gid>
+    <sid><![CDATA[876211]]></sid>
+    <group_name><![CDATA[Entrez votre décision 1/2]]></group_name>
+    <group_order><![CDATA[4]]></group_order>
+    <description/>
+    <language><![CDATA[fr]]></language>
+    <randomization_group/>
+    <grelevance/>
+   </row>
+   <row>
+    <gid><![CDATA[2133]]></gid>
+    <sid><![CDATA[876211]]></sid>
+    <group_name><![CDATA[Entrez votre décision 2/2]]></group_name>
+    <group_order><![CDATA[5]]></group_order>
+    <description/>
+    <language><![CDATA[fr]]></language>
+    <randomization_group/>
+    <grelevance/>
+   </row>
+  </rows>
+ </groups>
+ <questions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[7460]]></qid>
+    <sid><![CDATA[876211]]></sid>
+    <gid><![CDATA[2127]]></gid>
+    <type><![CDATA[X]]></type>
+    <title><![CDATA[question01]]></title>
+    <question><![CDATA[<div id="anim_desc">
+	Dans ce jeu, des groupes de 4 participants (vous-même et 3 autres participants) sont formés par tirage au sort.</div>
+<div>
+	&nbsp;</div>
+<div>
+	<u><b><span class="il">Rappel </span>:</b></u>&nbsp;Les participants qui appartiennent à votre groupe au cours de cette partie&nbsp;<b>sont différents</b>&nbsp;de ceux que vous rencontrez dans les autres parties de l’étude.<br />
+	<br />
+	<b>Au début de la partie, chaque membre du groupe reçoit 10€.</b> Chacun des membres du groupe doit choisir combien d'euros il conserve et combien il investit dans un projet commun.</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>Le montant total des contributions au projet commun est ensuite multiplié par 1,6</strong>.</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>Enfin, l'argent obtenu est redivisé équitablement</strong> entre les 4 membres du groupe (vous y compris).&nbsp;<br />
+	<br />
+	Pour mieux comprendre, regardez attentivement l'animation ci-dessous :</div>
+<div>
+	&nbsp;</div>
+<div class="deroulement" id="eiContainer">
+	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" height="330" id="ExternalInterfaceExample" width="600"><param name="movie" value="/mango/mango_public_good/animations/public_good_description_fr.swf" /><param name="quality" value="high" /><param name="allowScriptAccess" value="sameDomain" /><embed align="middle" allowscriptaccess="sameDomain" height="330" loop="false" name="ExternalInterfaceExample" play="true" quality="high" src="/mango/mango_public_good/animations/public_good_description_fr.swf" type="application/x-shockwave-flash" width="600" wmode="transparent"></embed></object></div>
+]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+   <row>
+    <qid><![CDATA[7461]]></qid>
+    <sid><![CDATA[876211]]></sid>
+    <gid><![CDATA[2128]]></gid>
+    <type><![CDATA[X]]></type>
+    <title><![CDATA[question02]]></title>
+    <question><![CDATA[<p>
+	<script type="text/javascript">
+var help = "<br/>Dans cette partie, des groupes de 4 participants (vous-même et 3 autres participants) sont formés par tirage au sort.<br/><br/><u><b>Rappel:</b></u> Les participants qui appartiennent à votre groupe au cours de cette partie <b>sont différents</b> de ceux que vous rencontrez dans les autres parties de l'étude.<br/><br/><b>Au début de cette partie, chaque membre du groupe reçoit 10€.<br/><br/>Chacun des membres du groupe doit ensuite choisir combien d'euros il conserve et combien il investit dans un projet commun.<br/><br/>Chaque euro investi dans le projet commun par un membre du groupe rapporte 0.4€ à chacun des 4 membres du groupe (vous y compris). Autrement dit, le montant total des contributions au projet commun est multiplié par 1,6 avant d'être réparti équitablement entre les 4 membres du groupe.</b><br/><br/><br/><div style='text-align: center;'><u><b>Ainsi, votre gain en euros pour cette partie est donné par:</b></u><b><br/><br/></b><i><b>10 - (votre contribution au projet commun) + 0.4 x (contribution totale au projet commun)</b></i></div>";
+</script>
+	Dans la page suivante, vous aurez la possibilité de tester le jeu avant de prendre votre décision.</p>
+<p>
+	<strong>Prenez le temps de tester au moins 3 exemples</strong>.</p>
+]]></question>
+    <preg/>
+    <help><![CDATA[<span class="aide">Vous pouvez à tout moment consulter les règles du jeu en cliquant sur le bouton "?" (à gauche)</span>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+   <row>
+    <qid><![CDATA[7462]]></qid>
+    <sid><![CDATA[876211]]></sid>
+    <gid><![CDATA[2129]]></gid>
+    <type><![CDATA[X]]></type>
+    <title><![CDATA[question03]]></title>
+    <question><![CDATA[<div id="eiContainer">
+	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" height="330" id="ExternalInterfaceExample" width="600"><param name="movie" value="/mango/mango_public_good/animations/public_good_simulation_fr.swf" /><param name="quality" value="high" /><param name="wmode" value="transparent" /><param name="allowScriptAccess" value="sameDomain" /><embed align="middle" allowscriptaccess="sameDomain" height="330" id="ExternalInterfaceExample" loop="false" name="ExternalInterfaceExample" play="true" quality="high" src="/mango/mango_public_good/animations/public_good_simulation_fr.swf" type="application/x-shockwave-flash" width="600" wmode="transparent"></embed></object></div>
+<!-- fin de eiContainer -->
+<div class="test_zone">
+	<b>Les essais que vous faites sur cette page n'ont aucune conséquence sur vos gains dans cette partie.</b></div>
+<br />
+<div id="anim_controls">
+	<div class="me">
+		<span class="intitule">Ma contribution</span>
+		<div class="controller">
+			<div class="left">
+				<input id="player0_money_amount" name="player0_money_subtract_amount" readonly="readonly" type="text" value="- " /></div>
+			<div class="right">
+				<input class="btn_plus" name="player0_money_add" onclick="addMoney('me')" onmousedown="this.className='btn_plus_down'" onmouseout="this.className='btn_plus'" onmouseover="this.className='btn_plus_hover'" onmouseup="this.className='btn_plus_hover'" type="button" value=" " /> <input class="btn_minus" name="player0_money_subtract" onclick="subMoney('me')" onmousedown="this.className='btn_minus_down'" onmouseout="this.className='btn_minus'" onmouseover="this.className='btn_minus_hover'" onmouseup="this.className='btn_minus_hover'" type="button" value=" " /></div>
+		</div>
+	</div>
+	<!-- fin de "me" -->
+	<div class="others">
+		<span class="intitule">Contribution des autres participants</span>
+		<div class="controller">
+			<div class="left">
+				<input id="player1_money_amount" name="player1_money_subtract_amount" readonly="readonly" type="text" value="- " /></div>
+			<div class="right">
+				<input class="btn_plus" name="player1_money_add" onclick="addMoney('player1')" onmousedown="this.className='btn_plus_down'" onmouseout="this.className='btn_plus'" onmouseover="this.className='btn_plus_hover'" onmouseup="this.className='btn_plus_hover'" type="button" value=" " /><input class="btn_minus" name="player1_money_subtract" onclick="subMoney('player1')" onmousedown="this.className='btn_minus_down'" onmouseout="this.className='btn_minus'" onmouseover="this.className='btn_minus_hover'" onmouseup="this.className='btn_minus_hover'" type="button" value=" " /></div>
+		</div>
+		<div class="controller">
+			<div class="left">
+				<input id="player2_money_amount" name="player2_money_subtract_amount" readonly="readonly" type="text" value="- " /></div>
+			<div class="right">
+				<input class="btn_plus" name="player2_money_add" onclick="addMoney('player2')" onmousedown="this.className='btn_plus_down'" onmouseout="this.className='btn_plus'" onmouseover="this.className='btn_plus_hover'" onmouseup="this.className='btn_plus_hover'" type="button" value=" " /><input class="btn_minus" name="player2_money_subtract" onclick="subMoney('player2')" onmousedown="this.className='btn_minus_down'" onmouseout="this.className='btn_minus'" onmouseover="this.className='btn_minus_hover'" onmouseup="this.className='btn_minus_hover'" type="button" value=" " /></div>
+		</div>
+		<div class="controller">
+			<div class="left">
+				<input id="player3_money_amount" name="player3_money_subtract_amount" readonly="readonly" type="text" value="- " /></div>
+			<div class="right">
+				<input class="btn_plus" name="player3_money_add" onclick="addMoney('player3')" onmousedown="this.className='btn_plus_down'" onmouseout="this.className='btn_plus'" onmouseover="this.className='btn_plus_hover'" onmouseup="this.className='btn_plus_hover'" type="button" value=" " /><input class="btn_minus" name="player3_money_subtract" onclick="subMoney('player3')" onmousedown="this.className='btn_minus_down'" onmouseout="this.className='btn_minus'" onmouseover="this.className='btn_minus_hover'" onmouseup="this.className='btn_minus_hover'" type="button" value=" " /></div>
+		</div>
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<!-- the randomizer - access to specific function in order to feed the callbacks -->
+		<div class="randomize">
+			<div class="bouton">
+				<input class="btn_random_visible" id="btn_random" onclick="randomize();" onmousedown="this.className='btn_random_down'" onmouseout="this.className='btn_random_visible'" onmouseover="this.className='btn_random_hover'" onmouseup="this.className='btn_random_hover'" type="button" value=" " /></div>
+			<div class="label">
+				<strong>Utiliser des valeurs aléatoires pour ces participants</strong></div>
+		</div>
+	</div>
+	<!-- fin de others --><br />
+	<div class="anim_launch">
+		Entre chaque essai, cliquez sur le bouton "remettre à zéro" ci-dessous pour réinitialiser le calculateur.<br />
+		<br />
+		<!-- reset the simulation - access to specific function in order to reset movie and callbacks --><input class="cta_reset_visible" id="cta_reset" onclick="resetMovie();" onmousedown="this.className='cta_reset_down'" onmouseout="this.className='cta_reset_visible'" onmouseover="this.className='cta_reset_hover'" onmouseup="this.className='cta_reset_hover'" type="button" value="remettre à zéro" /> <!-- start the simulation - direct access to movie --><input class="cta_simulate_visible" id="cta_simulate" onclick="controlAmount();" onmousedown="this.className='cta_simulate_down'" onmouseout="this.className='cta_simulate'" onmouseover="this.className='cta_simulate_hover'" onmouseup="this.className='cta_simulate_hover'" type="button" value="simuler les gains" /></div>
+</div>
+<div class="clearer">
+	&nbsp;</div>
+<!-- Fin de "anim_controls" -->
+<script type="text/javascript">
+	var jsReady					= false;
+	var iNumberOfSimulations	= 0;
+
+	function isReady() {
+		return jsReady;
+	}
+
+	// waiting for dom loaded
+	$(document).ready(function() {
+		jsReady = true;
+		deactivateButtons();
+	});
+	
+	/** table players - with amount */
+	var players = { me: -1, player1: -1, player2: -1, player3: -1 };
+
+	/** table playersToRandom - with amount */
+	var playersToRandom = { player1: -1, player2: -1, player3: -1 };
+	
+	/** table callback - use jquery object for the input textfield */
+	var callbacks = { me: $("#player0_money_amount"), player1: $("#player1_money_amount"), player2: $("#player2_money_amount"), player3: $("#player3_money_amount") }
+
+	/**
+	 * @return swf movie
+	 */
+	function getMovie(){
+		return document["ExternalInterfaceExample"];
+	}
+
+	/**
+	 * Send to actionscript movie info about a player and its money.
+	 * Player possible values are strings "me","player1","player2","player3".
+	 * Send money values as integer, from 0 to 10. Use players table
+	 * to decrement amount
+	 *
+	 * @param player - identifier for each player
+	 */
+	function subMoney(player){
+		players[player] = players[player]-1<0?0:players[player]-1;
+		callbacks[player].val(players[player]);
+		getMovie().setMoney(player, players[player]);
+	}
+	
+	/**
+	 * Send to actionscript movie info about a player and its money.
+	 * Player possible values are strings "me","player1","player2","player3".
+	 * Send money values as integer, from 0 to 10. Use players table
+	 * to increment amount
+	 *
+	 * @param player - identifier for each player
+	 */
+	 function addMoney(player) {
+		players[player] = players[player] + 1 > 10 ? 10 : players[player] + 1;
+		callbacks[player].val(players[player]);
+		getMovie().setMoney(player, players[player]);
+	 }
+	
+	/**
+	 * Generate random amount values for each player and 
+	 * send them to actionsctipr object
+	 */
+	function randomize() {
+		for (var i in playersToRandom) {
+			var randomnumber = Math.floor(Math.random() * 11);
+			playersToRandom[i] = randomnumber;
+			callbacks[i].val(playersToRandom[i]);
+			getMovie().setMoney(i, playersToRandom[i]);
+		}
+	}
+	
+	/**
+	 * Reset the movie using the function getMovie().reset()
+	 * reset the callbacks aussi
+	 */
+	function resetMovie() {
+		for (var i in players) {
+			players[i] = -1;
+			callbacks[i].val("- ");
+		}
+		deactivateButtons();
+		getMovie().reset();
+	}
+
+	function onAnimPos(animPos) {
+		switch(animPos) {
+			case "ReadyForP1" :
+				activateButtons();
+				break;
+			case "EndSimulation" :
+				tmp = $("#cta_reset");
+				tmp.attr("disabled", false);
+				tmp.attr("class", "cta_reset_hover");
+				break;
+		}
+	}
+
+	/*Deactivation functions*/
+	function deactivateButtons() {
+		tmp = $('input[name="player0_money_add"]');
+		tmp.attr("disabled", true);
+		tmp.attr("class", "btn_plus_disabled");
+		tmp = $('input[name="player0_money_subtract"]');
+		tmp.attr("disabled", true);
+		tmp.attr("class", "btn_minus_disabled");
+		tmp = $("#player0_money_amount");
+		tmp.attr("class", "disabled");
+		tmp = $('input[name="player1_money_add"]');
+		tmp.attr("disabled", true);
+		tmp.attr("class", "btn_plus_disabled");
+		tmp = $('input[name="player1_money_subtract"]');
+		tmp.attr("disabled", true);
+		tmp.attr("class", "btn_minus_disabled");
+		tmp = $("#player1_money_amount");
+		tmp.attr("class", "disabled");
+		tmp = $('input[name="player2_money_add"]');
+		tmp.attr("disabled", true);
+		tmp.attr("class", "btn_plus_disabled");
+		tmp = $('input[name="player2_money_subtract"]');
+		tmp.attr("disabled", true);
+		tmp.attr("class", "btn_minus_disabled");
+		tmp = $("#player2_money_amount");
+		tmp.attr("class", "disabled");
+		tmp = $('input[name="player3_money_add"]');
+		tmp.attr("disabled", true);
+		tmp.attr("class", "btn_plus_disabled");
+		tmp = $('input[name="player3_money_subtract"]');
+		tmp.attr("disabled", true);
+		tmp.attr("class", "btn_minus_disabled");
+		tmp = $("#player3_money_amount");
+		tmp.attr("class", "disabled");
+		tmp= $("#cta_reset");
+		tmp.attr("disabled", true);
+		tmp.attr("class", "cta_reset_disabled");
+		tmp = $("#cta_simulate");
+		tmp.attr("disabled", true);
+		tmp.attr("class", "cta_simulate_disabled");
+		tmp = $("#btn_random");
+		tmp.attr("disabled", true);
+		tmp.attr("class", "btn_random_disabled");
+	}
+
+	function activateButtons() {
+		tmp = $('input[name="player0_money_add"]');
+		tmp.attr("disabled", false);
+		tmp.attr("class", "btn_plus");
+		tmp = $('input[name="player0_money_subtract"]');
+		tmp.attr("disabled", false);
+		tmp.attr("class", "btn_minus");
+		tmp = $("#player0_money_amount");
+		tmp.attr("class", "active");
+		tmp = $('input[name="player1_money_add"]');
+		tmp.attr("disabled", false);
+		tmp.attr("class", "btn_plus");
+		tmp = $('input[name="player1_money_subtract"]');
+		tmp.attr("disabled", false);
+		tmp.attr("class", "btn_minus");
+		tmp = $("#player1_money_amount");
+		tmp.attr("class", "active");
+		tmp = $('input[name="player2_money_add"]');
+		tmp.attr("disabled", false);
+		tmp.attr("class", "btn_plus");
+		tmp = $('input[name="player2_money_subtract"]');
+		tmp.attr("disabled", false);
+		tmp.attr("class", "btn_minus");
+		tmp = $("#player2_money_amount");
+		tmp.attr("class", "active");
+		tmp = $('input[name="player3_money_add"]');
+		tmp.attr("disabled", false);
+		tmp.attr("class", "btn_plus");
+		tmp = $('input[name="player3_money_subtract"]');
+		tmp.attr("disabled", false);
+		tmp.attr("class", "btn_minus");
+		tmp = $("#player3_money_amount");
+		tmp.attr("class", "active");
+		tmp= $("#cta_reset");
+		tmp.attr("disabled", false);
+		tmp.attr("class", "cta_reset_visible");
+		tmp= $("#cta_simulate");
+		tmp.attr("disabled", false);
+		tmp.attr("class", "cta_simulate_visible");
+		tmp = $("#btn_random");
+		tmp.attr("disabled", false);
+		tmp.attr("class", "btn_random_visible");
+	}
+
+	/**
+	 * Control if an amount is entered
+	 */
+	function controlAmount() {
+		if(players.me == -1 || (players.player1 == -1 && playersToRandom.player1 == -1) || (players.player2 == -1 && playersToRandom.player2 == -1) || (players.player3 == -1 && playersToRandom.player3 == -1)) {
+			alert("Pour lancer la simulation, choisissez un montant pour chaque participant.");
+		} else {
+			deactivateButtons();
+			getMovie().startSimulation();
+		}
+	}
+
+	var help = "<br/>Dans cette partie, des groupes de 4 participants (vous-même et 3 autres participants) sont formés par tirage au sort.<br/><br/><u><b>Rappel:</b></u> Les participants qui appartiennent à votre groupe au cours de cette partie <b>sont différents</b> de ceux que vous rencontrez dans les autres parties de l'étude.<br/><br/><b>Au début de cette partie, chaque membre du groupe reçoit 10€.<br/><br/>Chacun des membres du groupe doit ensuite choisir combien d'euros il conserve et combien il investit dans un projet commun.<br/><br/>Chaque euro investi dans le projet commun par un membre du groupe rapporte 0.4€ à chacun des 4 membres du groupe (vous y compris). Autrement dit, le montant total des contributions au projet commun est multiplié par 1,6 avant d'être réparti équitablement entre les 4 membres du groupe.</b><br/><br/><br/><div style='text-align: center;'><u><b>Ainsi, votre gain en euros pour cette partie est donné par:</b></u><b><br/><br/></b><i><b>10 - (votre contribution au projet commun) + 0.4 x (contribution totale au projet commun)</b></i></div>";
+
+	$(document).ready(
+		function() {
+			// Save simulation
+			$("#cta_simulate").click(
+				function() {
+					save_simulation('public_good');
+					iNumberOfSimulations++;
+				}
+			);
+			// Force the use to do 3 simulations minimum
+			$('#movenextbtn').click(
+				function() {
+					if(iNumberOfSimulations < 3) {
+						alert('Vous devez faire 3 simulations minimum avant de passer à l\'étape suivante.');
+						return false;
+					}
+				}
+			);
+		}
+	);
+</script>]]></question>
+    <preg/>
+    <help><![CDATA[<span class="aide">Vous pouvez à tout moment consulter les règles du jeu en cliquant sur le bouton "?" (à gauche)</span>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+   <row>
+    <qid><![CDATA[7463]]></qid>
+    <sid><![CDATA[876211]]></sid>
+    <gid><![CDATA[2130]]></gid>
+    <type><![CDATA[X]]></type>
+    <title><![CDATA[question04]]></title>
+    <question><![CDATA[<script type="text/javascript">
+var help = "<br/>Dans cette partie, des groupes de 4 participants (vous-même et 3 autres participants) sont formés par tirage au sort.<br/><br/><u><b>Rappel:</b></u> Les participants qui appartiennent à votre groupe au cours de cette partie <b>sont différents</b> de ceux que vous rencontrez dans les autres parties de l'étude.<br/><br/><b>Au début de cette partie, chaque membre du groupe reçoit 10€.<br/><br/>Chacun des membres du groupe doit ensuite choisir combien d'euros il conserve et combien il investit dans un projet commun.<br/><br/>Chaque euro investi dans le projet commun par un membre du groupe rapporte 0.4€ à chacun des 4 membres du groupe (vous y compris). Autrement dit, le montant total des contributions au projet commun est multiplié par 1,6 avant d'être réparti équitablement entre les 4 membres du groupe.</b><br/><br/><br/><div style='text-align: center;'><u><b>Ainsi, votre gain en euros pour cette partie est donné par:</b></u><b><br/><br/></b><i><b>10 - (votre contribution au projet commun) + 0.4 x (contribution totale au projet commun)</b></i></div>";
+</script>Dans la page suivante, vous allez décider combien de vos 10€ vous voulez investir dans le projet commun. Vous allez prendre cette décision de <b>2 manières différentes</b>:<br />
+<ul>
+	<li>
+		Dans une première étape, vous devez simplement décider <b>combien de vos 10€ vous voulez investir dans le projet commun.</b></li>
+</ul>
+<ul>
+	<li>
+		Dans une seconde étape, vous avez l'opportunité de <b>déterminer votre contribution en fonction de la contribution des autres membres du groupe</b>.</li>
+</ul>
+<br />
+Une fois que vous aurez pris ces deux décisions, <b>la décision qui sera utilisée pour déterminer votre contribution et calculer vos gains dans cette partie sera tirée au sort.</b> Vous devrez donc réfléchir attentivement à chaque type de décision.<br />
+]]></question>
+    <preg/>
+    <help><![CDATA[<span class="aide">Vous pouvez à tout moment consulter les règles du jeu en cliquant sur le bouton "?" (à gauche)</span>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+   <row>
+    <qid><![CDATA[7464]]></qid>
+    <sid><![CDATA[876211]]></sid>
+    <gid><![CDATA[2131]]></gid>
+    <type><![CDATA[K]]></type>
+    <title><![CDATA[question05]]></title>
+    <question><![CDATA[<script type="text/javascript">
+var help = "<br/>Dans cette partie, des groupes de 4 participants (vous-même et 3 autres participants) sont formés par tirage au sort.<br/><br/><u><b>Rappel:</b></u> Les participants qui appartiennent à votre groupe au cours de cette partie <b>sont différents</b> de ceux que vous rencontrez dans les autres parties de l'étude.<br/><br/><b>Au début de cette partie, chaque membre du groupe reçoit 10€.<br/><br/>Chacun des membres du groupe doit ensuite choisir combien d'euros il conserve et combien il investit dans un projet commun.<br/><br/>Chaque euro investi dans le projet commun par un membre du groupe rapporte 0.4€ à chacun des 4 membres du groupe (vous y compris). Autrement dit, le montant total des contributions au projet commun est multiplié par 1,6 avant d'être réparti équitablement entre les 4 membres du groupe.</b><br/><br/><br/><div style='text-align: center;'><u><b>Ainsi, votre gain en euros pour cette partie est donné par:</b></u><b><br/><br/></b><i><b>10 - (votre contribution au projet commun) + 0.4 x (contribution totale au projet commun)</b></i></div>";
+$(document).ready(
+   function() {
+      $('#anim_sentence').after($('.asterisque'));
+   }
+);
+</script>
+<div id="anim_sentence" style="text-align: center;">
+	<span style="display: table-cell; vertical-align: middle;"><img alt="" height="32px" src="/upload/surveys/57263/warning.png" width="32px" /></span> <span style="display: table-cell; vertical-align: middle;"><strong>Ceci est un écran de décision. Une fois que vous aurez pris votre décision et cliqué sur le bouton "Suivant", vous ne pourrez plus revenir à cet écran.</strong></span> <span style="display: table-cell; vertical-align: middle;"><img alt="" height="32px" src="/upload/surveys/57263/warning.png" width="32px" /></span></div>
+<br />
+Vous avez 10€ en votre possession. Combien voulez-vous investir dans le projet commun?]]></question>
+    <preg/>
+    <help><![CDATA[<span class="aide">Vous pouvez à tout moment consulter les règles du jeu en cliquant sur le bouton "?" (à gauche)</span>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+   <row>
+    <qid><![CDATA[7471]]></qid>
+    <sid><![CDATA[876211]]></sid>
+    <gid><![CDATA[2133]]></gid>
+    <type><![CDATA[;]]></type>
+    <title><![CDATA[question09]]></title>
+    <question><![CDATA[<script type="text/javascript">
+var help = "<br/>Dans cette partie, des groupes de 4 participants (vous-même et 3 autres participants) sont formés par tirage au sort.<br/><br/><u><b>Rappel:</b></u> Les participants qui appartiennent à votre groupe au cours de cette partie <b>sont différents</b> de ceux que vous rencontrez dans les autres parties de l'étude.<br/><br/><b>Au début de cette partie, chaque membre du groupe reçoit 10€.<br/><br/>Chacun des membres du groupe doit ensuite choisir combien d'euros il conserve et combien il investit dans un projet commun.<br/><br/>Chaque euro investi dans le projet commun par un membre du groupe rapporte 0.4€ à chacun des 4 membres du groupe (vous y compris). Autrement dit, le montant total des contributions au projet commun est multiplié par 1,6 avant d'être réparti équitablement entre les 4 membres du groupe.</b><br/><br/><br/><div style='text-align: center;'><u><b>Ainsi, votre gain en euros pour cette partie est donné par:</b></u><b><br/><br/></b><i><b>10 - (votre contribution au projet commun) + 0.4 x (contribution totale au projet commun)</b></i></div>";
+$(document).ready(
+   function(){
+      $('#anim_sentence').after($('.asterisque'));
+      $('#question{QID} input').width('23px');
+      $("#question{QID} thead").remove();
+   }
+);
+</script>
+<div id="anim_sentence" style="text-align: center;">
+	<span style="display: table-cell; vertical-align: middle;"><img alt="" height="32px" src="/upload/surveys/57263/warning.png" width="32px" /></span> <span style="display: table-cell; vertical-align: middle;"><strong>Ceci est un écran de décision. Une fois que vous aurez pris votre décision et cliqué sur le bouton "Suivant", vous ne pourrez plus revenir à cet écran.</strong></span> <span style="display: table-cell; vertical-align: middle;"><img alt="" height="32px" src="/upload/surveys/57263/warning.png" width="32px" /></span></div>
+<br />
+Vous recevez maintenant une table de contributions qui liste <b>chaque contribution moyenne possible des autres membres du groupe</b> (tous les entiers entre 0 et 10).<br />
+<br />
+Pour chaque contribution moyenne possible des autres membres du groupe, combien voulez-vous investir dans le projet commun?<br />
+<br />
+<table border="1" cellpadding="1" cellspacing="1">
+	<tbody>
+		<tr>
+			<td style="width: 23%;">
+				<i>Si les autres membres du groupe font une contribution moyenne de: </i></td>
+			<td style="text-align: center; width: 6%;">
+				0€</td>
+			<td style="text-align: center; width: 6%;">
+				1€</td>
+			<td style="text-align: center; width: 6%;">
+				2€</td>
+			<td style="text-align: center; width: 6%;">
+				3€</td>
+			<td style="text-align: center; width: 6%;">
+				4€</td>
+			<td style="text-align: center; width: 6%;">
+				5€</td>
+			<td style="text-align: center; width: 6%;">
+				6€</td>
+			<td style="text-align: center; width: 6%;">
+				7€</td>
+			<td style="text-align: center; width: 6%;">
+				8€</td>
+			<td style="text-align: center; width: 6%;">
+				9€</td>
+			<td style="text-align: center; width: 6%;">
+				10€</td>
+		</tr>
+	</tbody>
+</table>]]></question>
+    <preg/>
+    <help><![CDATA[<span class="aide">Vous pouvez à tout moment consulter les règles du jeu en cliquant sur le bouton "?" (à gauche)</span>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+  </rows>
+ </questions>
+ <subquestions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[7465]]></qid>
+    <sid><![CDATA[876211]]></sid>
+    <gid><![CDATA[2131]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[1]]></title>
+    <question/>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[7464]]></parent_qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+   </row>
+   <row>
+    <qid><![CDATA[7472]]></qid>
+    <sid><![CDATA[876211]]></sid>
+    <gid><![CDATA[2133]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[1]]></title>
+    <question><![CDATA[Combien voulez-vous investir dans le projet commun?]]></question>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[7471]]></parent_qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+   </row>
+   <row>
+    <qid><![CDATA[7474]]></qid>
+    <sid><![CDATA[876211]]></sid>
+    <gid><![CDATA[2133]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[1]]></title>
+    <question/>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[7471]]></parent_qid>
+    <scale_id><![CDATA[1]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+   </row>
+   <row>
+    <qid><![CDATA[7475]]></qid>
+    <sid><![CDATA[876211]]></sid>
+    <gid><![CDATA[2133]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[2]]></title>
+    <question/>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[7471]]></parent_qid>
+    <scale_id><![CDATA[1]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+   </row>
+   <row>
+    <qid><![CDATA[7476]]></qid>
+    <sid><![CDATA[876211]]></sid>
+    <gid><![CDATA[2133]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[3]]></title>
+    <question/>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[7471]]></parent_qid>
+    <scale_id><![CDATA[1]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+   </row>
+   <row>
+    <qid><![CDATA[7477]]></qid>
+    <sid><![CDATA[876211]]></sid>
+    <gid><![CDATA[2133]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[4]]></title>
+    <question/>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[4]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[7471]]></parent_qid>
+    <scale_id><![CDATA[1]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+   </row>
+   <row>
+    <qid><![CDATA[7478]]></qid>
+    <sid><![CDATA[876211]]></sid>
+    <gid><![CDATA[2133]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[5]]></title>
+    <question/>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[5]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[7471]]></parent_qid>
+    <scale_id><![CDATA[1]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+   </row>
+   <row>
+    <qid><![CDATA[7479]]></qid>
+    <sid><![CDATA[876211]]></sid>
+    <gid><![CDATA[2133]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[6]]></title>
+    <question/>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[6]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[7471]]></parent_qid>
+    <scale_id><![CDATA[1]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+   </row>
+   <row>
+    <qid><![CDATA[7480]]></qid>
+    <sid><![CDATA[876211]]></sid>
+    <gid><![CDATA[2133]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[7]]></title>
+    <question/>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[7]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[7471]]></parent_qid>
+    <scale_id><![CDATA[1]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+   </row>
+   <row>
+    <qid><![CDATA[7481]]></qid>
+    <sid><![CDATA[876211]]></sid>
+    <gid><![CDATA[2133]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[8]]></title>
+    <question/>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[8]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[7471]]></parent_qid>
+    <scale_id><![CDATA[1]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+   </row>
+   <row>
+    <qid><![CDATA[7482]]></qid>
+    <sid><![CDATA[876211]]></sid>
+    <gid><![CDATA[2133]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[9]]></title>
+    <question/>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[9]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[7471]]></parent_qid>
+    <scale_id><![CDATA[1]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+   </row>
+   <row>
+    <qid><![CDATA[7483]]></qid>
+    <sid><![CDATA[876211]]></sid>
+    <gid><![CDATA[2133]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[10]]></title>
+    <question/>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[10]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[7471]]></parent_qid>
+    <scale_id><![CDATA[1]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+   </row>
+   <row>
+    <qid><![CDATA[7484]]></qid>
+    <sid><![CDATA[876211]]></sid>
+    <gid><![CDATA[2133]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[11]]></title>
+    <question/>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[11]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[7471]]></parent_qid>
+    <scale_id><![CDATA[1]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+   </row>
+  </rows>
+ </subquestions>
+ <surveys>
+  <fields>
+   <fieldname>sid</fieldname>
+   <fieldname>admin</fieldname>
+   <fieldname>expires</fieldname>
+   <fieldname>startdate</fieldname>
+   <fieldname>adminemail</fieldname>
+   <fieldname>anonymized</fieldname>
+   <fieldname>faxto</fieldname>
+   <fieldname>format</fieldname>
+   <fieldname>template</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>additional_languages</fieldname>
+   <fieldname>datestamp</fieldname>
+   <fieldname>usecookie</fieldname>
+   <fieldname>allowregister</fieldname>
+   <fieldname>allowsave</fieldname>
+   <fieldname>autonumber_start</fieldname>
+   <fieldname>autoredirect</fieldname>
+   <fieldname>allowprev</fieldname>
+   <fieldname>printanswers</fieldname>
+   <fieldname>ipaddr</fieldname>
+   <fieldname>refurl</fieldname>
+   <fieldname>publicstatistics</fieldname>
+   <fieldname>publicgraphs</fieldname>
+   <fieldname>listpublic</fieldname>
+   <fieldname>htmlemail</fieldname>
+   <fieldname>tokenanswerspersistence</fieldname>
+   <fieldname>assessments</fieldname>
+   <fieldname>usecaptcha</fieldname>
+   <fieldname>usetokens</fieldname>
+   <fieldname>bounce_email</fieldname>
+   <fieldname>attributedescriptions</fieldname>
+   <fieldname>emailresponseto</fieldname>
+   <fieldname>tokenlength</fieldname>
+   <fieldname>savetimings</fieldname>
+   <fieldname>showxquestions</fieldname>
+   <fieldname>showgroupinfo</fieldname>
+   <fieldname>shownoanswer</fieldname>
+   <fieldname>showqnumcode</fieldname>
+   <fieldname>bouncetime</fieldname>
+   <fieldname>bounceprocessing</fieldname>
+   <fieldname>bounceaccounttype</fieldname>
+   <fieldname>bounceaccounthost</fieldname>
+   <fieldname>bounceaccountpass</fieldname>
+   <fieldname>bounceaccountencryption</fieldname>
+   <fieldname>bounceaccountuser</fieldname>
+   <fieldname>showwelcome</fieldname>
+   <fieldname>showprogress</fieldname>
+   <fieldname>navigationdelay</fieldname>
+   <fieldname>nokeyboard</fieldname>
+   <fieldname>alloweditaftercompletion</fieldname>
+   <fieldname>emailnotificationto</fieldname>
+   <fieldname>googleanalyticsstyle</fieldname>
+   <fieldname>googleanalyticsapikey</fieldname>
+   <fieldname>sendconfirmation</fieldname>
+   <fieldname>questionindex</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <sid><![CDATA[876211]]></sid>
+    <admin><![CDATA[Anne L'Hôte]]></admin>
+    <adminemail><![CDATA[anne.lhote@sciencespo.fr]]></adminemail>
+    <anonymized><![CDATA[N]]></anonymized>
+    <faxto/>
+    <format><![CDATA[G]]></format>
+    <template><![CDATA[mango]]></template>
+    <language><![CDATA[fr]]></language>
+    <additional_languages/>
+    <datestamp><![CDATA[Y]]></datestamp>
+    <usecookie><![CDATA[Y]]></usecookie>
+    <allowregister><![CDATA[N]]></allowregister>
+    <allowsave><![CDATA[N]]></allowsave>
+    <autonumber_start><![CDATA[4]]></autonumber_start>
+    <autoredirect><![CDATA[Y]]></autoredirect>
+    <allowprev><![CDATA[N]]></allowprev>
+    <printanswers><![CDATA[N]]></printanswers>
+    <ipaddr><![CDATA[N]]></ipaddr>
+    <refurl><![CDATA[Y]]></refurl>
+    <publicstatistics><![CDATA[N]]></publicstatistics>
+    <publicgraphs><![CDATA[N]]></publicgraphs>
+    <listpublic><![CDATA[N]]></listpublic>
+    <htmlemail><![CDATA[Y]]></htmlemail>
+    <tokenanswerspersistence><![CDATA[N]]></tokenanswerspersistence>
+    <assessments><![CDATA[N]]></assessments>
+    <usecaptcha><![CDATA[D]]></usecaptcha>
+    <usetokens><![CDATA[N]]></usetokens>
+    <bounce_email><![CDATA[anne.lhote@sciencespo.fr]]></bounce_email>
+    <attributedescriptions><![CDATA[a:0:{}]]></attributedescriptions>
+    <emailresponseto/>
+    <tokenlength><![CDATA[15]]></tokenlength>
+    <savetimings><![CDATA[Y]]></savetimings>
+    <showxquestions><![CDATA[N]]></showxquestions>
+    <showgroupinfo><![CDATA[B]]></showgroupinfo>
+    <shownoanswer><![CDATA[Y]]></shownoanswer>
+    <showqnumcode><![CDATA[X]]></showqnumcode>
+    <bounceprocessing><![CDATA[N]]></bounceprocessing>
+    <showwelcome><![CDATA[N]]></showwelcome>
+    <showprogress><![CDATA[Y]]></showprogress>
+    <navigationdelay><![CDATA[0]]></navigationdelay>
+    <nokeyboard><![CDATA[N]]></nokeyboard>
+    <alloweditaftercompletion><![CDATA[N]]></alloweditaftercompletion>
+    <emailnotificationto/>
+    <googleanalyticsstyle><![CDATA[0]]></googleanalyticsstyle>
+    <googleanalyticsapikey/>
+    <sendconfirmation><![CDATA[Y]]></sendconfirmation>
+    <questionindex><![CDATA[0]]></questionindex>
+   </row>
+  </rows>
+ </surveys>
+ <surveys_languagesettings>
+  <fields>
+   <fieldname>surveyls_survey_id</fieldname>
+   <fieldname>surveyls_language</fieldname>
+   <fieldname>surveyls_title</fieldname>
+   <fieldname>surveyls_description</fieldname>
+   <fieldname>surveyls_welcometext</fieldname>
+   <fieldname>surveyls_endtext</fieldname>
+   <fieldname>surveyls_url</fieldname>
+   <fieldname>surveyls_urldescription</fieldname>
+   <fieldname>surveyls_email_invite_subj</fieldname>
+   <fieldname>surveyls_email_invite</fieldname>
+   <fieldname>surveyls_email_remind_subj</fieldname>
+   <fieldname>surveyls_email_remind</fieldname>
+   <fieldname>surveyls_email_register_subj</fieldname>
+   <fieldname>surveyls_email_register</fieldname>
+   <fieldname>surveyls_email_confirm_subj</fieldname>
+   <fieldname>surveyls_email_confirm</fieldname>
+   <fieldname>surveyls_dateformat</fieldname>
+   <fieldname>email_admin_notification_subj</fieldname>
+   <fieldname>email_admin_responses_subj</fieldname>
+   <fieldname>email_admin_notification</fieldname>
+   <fieldname>email_admin_responses</fieldname>
+   <fieldname>surveyls_numberformat</fieldname>
+   <fieldname>surveyls_attributecaptions</fieldname>
+   <fieldname>attachments</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <surveyls_survey_id><![CDATA[876211]]></surveyls_survey_id>
+    <surveyls_language><![CDATA[fr]]></surveyls_language>
+    <surveyls_title><![CDATA[Coop - Jeu Public Good]]></surveyls_title>
+    <surveyls_description/>
+    <surveyls_welcometext/>
+    <surveyls_endtext/>
+    <surveyls_url><![CDATA[http://grebdioz.sciences-po.fr/mango/mango_surveys_router/plugin.php?token={TOKEN}&sid={SID}&redirect]]></surveyls_url>
+    <surveyls_urldescription/>
+    <surveyls_email_invite_subj><![CDATA[Invitation à participer à un questionnaire]]></surveyls_email_invite_subj>
+    <surveyls_email_invite><![CDATA[Cher(e) {FIRSTNAME},<br />
+<br />
+Vous avez été invité à participer à un questionnaire.<br />
+<br />
+Celui-ci est intitulé :<br />
+"{SURVEYNAME}"<br />
+<br />
+"{SURVEYDESCRIPTION}"<br />
+<br />
+Pour participer, veuillez cliquer sur le lien ci-dessous.<br />
+<br />
+Cordialement,<br />
+<br />
+{ADMINNAME} ({ADMINEMAIL})<br />
+<br />
+----------------------------------------------<br />
+Cliquez ici pour remplir ce questionnaire :<br />
+{SURVEYURL}<br />
+<br />
+Si vous ne souhaitez pas participer à ce questionnaire et ne souhaitez plus recevoir aucune invitation, veuillez cliquer sur le lien suivant :<br />
+{OPTOUTURL}<br />
+<br />
+Si vous êtes sur liste noire mais que vous voulez participer à ce questionnaire et recevoir les invitations, merci de cliquer sur le lien suivant :<br />
+{OPTINURL}]]></surveyls_email_invite>
+    <surveyls_email_remind_subj><![CDATA[Rappel pour participer à un questionnaire]]></surveyls_email_remind_subj>
+    <surveyls_email_remind><![CDATA[Cher(e) {FIRSTNAME},<br />
+<br />
+Vous avez été invité(e) à participer à un questionnaire récemment.<br />
+<br />
+Nous avons pris en compte que vous n'avez pas encore complété le questionnaire, et nous vous rappelons que celui-ci est toujours disponible si vous souhaitez participer.<br />
+<br />
+Le questionnaire est intitulé :<br />
+"{SURVEYNAME}"<br />
+<br />
+"{SURVEYDESCRIPTION}"<br />
+<br />
+Pour participer, veuillez cliquer sur le lien ci-dessous.<br />
+<br />
+Cordialement,<br />
+<br />
+{ADMINNAME} ({ADMINEMAIL})<br />
+<br />
+----------------------------------------------<br />
+Cliquez ici pour faire le questionnaire:<br />
+{SURVEYURL}<br />
+<br />
+Si vous ne souhaitez pas participer à ce questionnaire et ne souhaitez plus recevoir aucune invitation, veuillez cliquer sur le lien suivant :<br />
+{OPTOUTURL}]]></surveyls_email_remind>
+    <surveyls_email_register_subj><![CDATA[Confirmation d'enregistrement au questionnaire]]></surveyls_email_register_subj>
+    <surveyls_email_register><![CDATA[Bonjour {FIRSTNAME},<br />
+<br />
+Vous (ou quelqu’un utilisant votre adresse électronique) vous êtes enregistré pour participer à un questionnaire en ligne intitulé {SURVEYNAME}.<br />
+<br />
+Pour compléter ce questionnaire, cliquez sur le lien suivant :<br />
+{SURVEYURL}<br />
+<br />
+Si vous avez des questions à propos de ce questionnaire, ou si vous ne vous êtes pas enregistré pour participer à celui-ci et croyez que ce courriel est une erreur, veuillez contacter {ADMINNAME} à l’adresse {ADMINEMAIL}]]></surveyls_email_register>
+    <surveyls_email_confirm_subj><![CDATA[Confirmation de votre participation à notre questionnaire]]></surveyls_email_confirm_subj>
+    <surveyls_email_confirm><![CDATA[Bonjour {FIRSTNAME},<br />
+<br />
+Ce courriel vous confirme que vous avez complété le questionnaire intitulé {SURVEYNAME} et que votre réponse a été enregistrée. Merci pour votre participation.<br />
+<br />
+Si vous avez des questions à propos de ce courriel, veuillez contacter {ADMINNAME} à l’adresse {ADMINEMAIL}.<br />
+<br />
+Cordialement,<br />
+<br />
+{ADMINNAME}]]></surveyls_email_confirm>
+    <surveyls_dateformat><![CDATA[9]]></surveyls_dateformat>
+    <email_admin_notification_subj><![CDATA[Soumission de réponse pour le questionnaire {SURVEYNAME}]]></email_admin_notification_subj>
+    <email_admin_responses_subj><![CDATA[Soumission de réponse pour le questionnaire {SURVEYNAME} avec résultats]]></email_admin_responses_subj>
+    <email_admin_notification><![CDATA[Bonjour,<br />
+<br />
+Une nouvelle réponse a été soumise pour votre questionnaire '{SURVEYNAME}'.<br />
+<br />
+Cliquer sur le lien suivant pour recharger votre questionnaire :<br />
+{RELOADURL}<br />
+<br />
+Cliquer sur le lien suivant pour voir la réponse :<br />
+{VIEWRESPONSEURL}<br />
+<br />
+Cliquer sur le lien suivant pour éditer la réponse :<br />
+{EDITRESPONSEURL}<br />
+<br />
+Visualiser les statistiques en cliquant ici :<br />
+{STATISTICSURL}<br />
+<br />
+les réponses suivantes ont été données par le participant :<br />
+{ANSWERTABLE}]]></email_admin_notification>
+    <email_admin_responses><![CDATA[Bonjour,<br />
+<br />
+Une nouvelle réponse a été soumise pour votre questionnaire '{SURVEYNAME}'.<br />
+<br />
+Cliquer sur le lien suivant pour recharger votre questionnaire :<br />
+{RELOADURL}<br />
+<br />
+Cliquer sur le lien suivant pour voir la réponse :<br />
+{VIEWRESPONSEURL}<br />
+<br />
+Cliquez sur le lien suivant pour éditer la réponse individuelle :<br />
+{EDITRESPONSEURL}<br />
+<br />
+Visualiser les statistiques en cliquant ici :<br />
+{STATISTICSURL}<br />
+<br />
+<br />
+les réponses suivantes ont été données par le participant :<br />
+{ANSWERTABLE}]]></email_admin_responses>
+    <surveyls_numberformat><![CDATA[0]]></surveyls_numberformat>
+   </row>
+  </rows>
+ </surveys_languagesettings>
+</document>
