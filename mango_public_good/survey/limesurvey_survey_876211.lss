@@ -21,7 +21,7 @@
     <gid><![CDATA[2127]]></gid>
     <sid><![CDATA[876211]]></sid>
     <group_name><![CDATA[Déroulement]]></group_name>
-    <group_order><![CDATA[0]]></group_order>
+    <group_order><![CDATA[1]]></group_order>
     <description/>
     <language><![CDATA[fr]]></language>
     <randomization_group/>
@@ -31,7 +31,7 @@
     <gid><![CDATA[2128]]></gid>
     <sid><![CDATA[876211]]></sid>
     <group_name><![CDATA[Exemples]]></group_name>
-    <group_order><![CDATA[1]]></group_order>
+    <group_order><![CDATA[2]]></group_order>
     <description/>
     <language><![CDATA[fr]]></language>
     <randomization_group/>
@@ -41,7 +41,7 @@
     <gid><![CDATA[2129]]></gid>
     <sid><![CDATA[876211]]></sid>
     <group_name><![CDATA[Calculateur de gains]]></group_name>
-    <group_order><![CDATA[2]]></group_order>
+    <group_order><![CDATA[3]]></group_order>
     <description/>
     <language><![CDATA[fr]]></language>
     <randomization_group/>
@@ -51,7 +51,7 @@
     <gid><![CDATA[2130]]></gid>
     <sid><![CDATA[876211]]></sid>
     <group_name><![CDATA[Comment entrer votre décision?]]></group_name>
-    <group_order><![CDATA[3]]></group_order>
+    <group_order><![CDATA[4]]></group_order>
     <description/>
     <language><![CDATA[fr]]></language>
     <randomization_group/>
@@ -61,7 +61,7 @@
     <gid><![CDATA[2131]]></gid>
     <sid><![CDATA[876211]]></sid>
     <group_name><![CDATA[Entrez votre décision 1/2]]></group_name>
-    <group_order><![CDATA[4]]></group_order>
+    <group_order><![CDATA[5]]></group_order>
     <description/>
     <language><![CDATA[fr]]></language>
     <randomization_group/>
@@ -71,7 +71,17 @@
     <gid><![CDATA[2133]]></gid>
     <sid><![CDATA[876211]]></sid>
     <group_name><![CDATA[Entrez votre décision 2/2]]></group_name>
-    <group_order><![CDATA[5]]></group_order>
+    <group_order><![CDATA[6]]></group_order>
+    <description/>
+    <language><![CDATA[fr]]></language>
+    <randomization_group/>
+    <grelevance/>
+   </row>
+   <row>
+    <gid><![CDATA[2207]]></gid>
+    <sid><![CDATA[876211]]></sid>
+    <group_name><![CDATA[Matching]]></group_name>
+    <group_order><![CDATA[0]]></group_order>
     <description/>
     <language><![CDATA[fr]]></language>
     <randomization_group/>
@@ -132,7 +142,7 @@
     <help/>
     <other><![CDATA[N]]></other>
     <mandatory><![CDATA[N]]></mandatory>
-    <question_order><![CDATA[1]]></question_order>
+    <question_order><![CDATA[0]]></question_order>
     <language><![CDATA[fr]]></language>
     <parent_qid><![CDATA[0]]></parent_qid>
     <scale_id><![CDATA[0]]></scale_id>
@@ -157,7 +167,7 @@ var help = "<br/>Dans cette partie, des groupes de 4 participants (vous-même et
     <help><![CDATA[<span class="aide">Vous pouvez à tout moment consulter les règles du jeu en cliquant sur le bouton "?" (à gauche)</span>]]></help>
     <other><![CDATA[N]]></other>
     <mandatory><![CDATA[N]]></mandatory>
-    <question_order><![CDATA[1]]></question_order>
+    <question_order><![CDATA[0]]></question_order>
     <language><![CDATA[fr]]></language>
     <parent_qid><![CDATA[0]]></parent_qid>
     <scale_id><![CDATA[0]]></scale_id>
@@ -454,7 +464,7 @@ var help = "<br/>Dans cette partie, des groupes de 4 participants (vous-même et
     <help><![CDATA[<span class="aide">Vous pouvez à tout moment consulter les règles du jeu en cliquant sur le bouton "?" (à gauche)</span>]]></help>
     <other><![CDATA[N]]></other>
     <mandatory><![CDATA[N]]></mandatory>
-    <question_order><![CDATA[1]]></question_order>
+    <question_order><![CDATA[0]]></question_order>
     <language><![CDATA[fr]]></language>
     <parent_qid><![CDATA[0]]></parent_qid>
     <scale_id><![CDATA[0]]></scale_id>
@@ -485,7 +495,7 @@ Une fois que vous aurez pris ces deux décisions, <b>la décision qui sera utili
     <help><![CDATA[<span class="aide">Vous pouvez à tout moment consulter les règles du jeu en cliquant sur le bouton "?" (à gauche)</span>]]></help>
     <other><![CDATA[N]]></other>
     <mandatory><![CDATA[N]]></mandatory>
-    <question_order><![CDATA[1]]></question_order>
+    <question_order><![CDATA[0]]></question_order>
     <language><![CDATA[fr]]></language>
     <parent_qid><![CDATA[0]]></parent_qid>
     <scale_id><![CDATA[0]]></scale_id>
@@ -508,13 +518,12 @@ $(document).ready(
 </script>
 <div id="anim_sentence" style="text-align: center;">
 	<span style="display: table-cell; vertical-align: middle;"><img alt="" height="32px" src="/upload/surveys/57263/warning.png" width="32px" /></span> <span style="display: table-cell; vertical-align: middle;"><strong>Ceci est un écran de décision. Une fois que vous aurez pris votre décision et cliqué sur le bouton "Suivant", vous ne pourrez plus revenir à cet écran.</strong></span> <span style="display: table-cell; vertical-align: middle;"><img alt="" height="32px" src="/upload/surveys/57263/warning.png" width="32px" /></span></div>
-<br />
 Vous avez 10€ en votre possession. Combien voulez-vous investir dans le projet commun?]]></question>
     <preg/>
     <help><![CDATA[<span class="aide">Vous pouvez à tout moment consulter les règles du jeu en cliquant sur le bouton "?" (à gauche)</span>]]></help>
     <other><![CDATA[N]]></other>
     <mandatory><![CDATA[Y]]></mandatory>
-    <question_order><![CDATA[1]]></question_order>
+    <question_order><![CDATA[0]]></question_order>
     <language><![CDATA[fr]]></language>
     <parent_qid><![CDATA[0]]></parent_qid>
     <scale_id><![CDATA[0]]></scale_id>
@@ -539,7 +548,6 @@ $(document).ready(
 </script>
 <div id="anim_sentence" style="text-align: center;">
 	<span style="display: table-cell; vertical-align: middle;"><img alt="" height="32px" src="/upload/surveys/57263/warning.png" width="32px" /></span> <span style="display: table-cell; vertical-align: middle;"><strong>Ceci est un écran de décision. Une fois que vous aurez pris votre décision et cliqué sur le bouton "Suivant", vous ne pourrez plus revenir à cet écran.</strong></span> <span style="display: table-cell; vertical-align: middle;"><img alt="" height="32px" src="/upload/surveys/57263/warning.png" width="32px" /></span></div>
-<br />
 Vous recevez maintenant une table de contributions qui liste <b>chaque contribution moyenne possible des autres membres du groupe</b> (tous les entiers entre 0 et 10).<br />
 <br />
 Pour chaque contribution moyenne possible des autres membres du groupe, combien voulez-vous investir dans le projet commun?<br />
@@ -573,11 +581,68 @@ Pour chaque contribution moyenne possible des autres membres du groupe, combien 
 				10€</td>
 		</tr>
 	</tbody>
-</table>]]></question>
+</table>
+]]></question>
     <preg/>
     <help><![CDATA[<span class="aide">Vous pouvez à tout moment consulter les règles du jeu en cliquant sur le bouton "?" (à gauche)</span>]]></help>
     <other><![CDATA[N]]></other>
     <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[0]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+   <row>
+    <qid><![CDATA[9124]]></qid>
+    <sid><![CDATA[876211]]></sid>
+    <gid><![CDATA[2207]]></gid>
+    <type><![CDATA[X]]></type>
+    <title><![CDATA[question00]]></title>
+    <question><![CDATA[<script type="text/javascript" src="mango/mango_dictator/scripts/countUp.min.js"></script><script type="text/javascript">
+$(document).ready(
+	function() {
+		$.ajax({
+			type: "GET",
+			url: rooturl + "mango/mango_dictator/services/get_matching.php",
+			data: "token={TOKEN}&game=1"
+		}).done(
+			function(data) {
+				var aParticipants = data.split(',');
+				var options = {
+					useEasing : true,  // toggle easing
+					useGrouping : true,  // 1,000,000 vs 1000000
+					separator : ',',  // character to use as a separator
+					decimal : '.',  // character to use as a decimal
+					prefix : '',
+					suffix : ''
+				}
+				for(var iKey in aParticipants) {
+					var demo = new countUp("counter_" + iKey, 0, aParticipants[iKey], 0, 3, options);
+					demo.start();
+				}
+			}
+		);
+	}
+);
+</script>Vous avez été matché avec le participant
+<div id="counter_0" style="display: inline;">
+	&nbsp;</div>
+.<br />
+Vous avez été matché avec le participant
+<div id="counter_1" style="display: inline;">
+	&nbsp;</div>
+.<br />
+Vous avez été matché avec le participant
+<div id="counter_2" style="display: inline;">
+	&nbsp;</div>
+.<br />
+]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[1]]></question_order>
     <language><![CDATA[fr]]></language>
     <parent_qid><![CDATA[0]]></parent_qid>
@@ -853,7 +918,7 @@ Pour chaque contribution moyenne possible des autres membres du groupe, combien 
    <row>
     <sid><![CDATA[876211]]></sid>
     <admin><![CDATA[Anne L'Hôte]]></admin>
-    <adminemail><![CDATA[anne.lhote@sciencespo.fr]]></adminemail>
+    <adminemail><![CDATA[anne.lhote@gmail.com]]></adminemail>
     <anonymized><![CDATA[N]]></anonymized>
     <faxto/>
     <format><![CDATA[G]]></format>
@@ -864,7 +929,7 @@ Pour chaque contribution moyenne possible des autres membres du groupe, combien 
     <usecookie><![CDATA[Y]]></usecookie>
     <allowregister><![CDATA[N]]></allowregister>
     <allowsave><![CDATA[N]]></allowsave>
-    <autonumber_start><![CDATA[4]]></autonumber_start>
+    <autonumber_start><![CDATA[28]]></autonumber_start>
     <autoredirect><![CDATA[Y]]></autoredirect>
     <allowprev><![CDATA[N]]></allowprev>
     <printanswers><![CDATA[N]]></printanswers>
@@ -878,7 +943,7 @@ Pour chaque contribution moyenne possible des autres membres du groupe, combien 
     <assessments><![CDATA[N]]></assessments>
     <usecaptcha><![CDATA[D]]></usecaptcha>
     <usetokens><![CDATA[N]]></usetokens>
-    <bounce_email><![CDATA[anne.lhote@sciencespo.fr]]></bounce_email>
+    <bounce_email><![CDATA[anne.lhote@gmail.com]]></bounce_email>
     <attributedescriptions><![CDATA[a:0:{}]]></attributedescriptions>
     <emailresponseto/>
     <tokenlength><![CDATA[15]]></tokenlength>
