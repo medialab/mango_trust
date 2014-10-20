@@ -50,7 +50,7 @@
    <row>
     <gid><![CDATA[2208]]></gid>
     <sid><![CDATA[914824]]></sid>
-    <group_name><![CDATA[Matching]]></group_name>
+    <group_name><![CDATA[Association]]></group_name>
     <group_order><![CDATA[0]]></group_order>
     <description/>
     <language><![CDATA[fr]]></language>
@@ -85,7 +85,8 @@
     <gid><![CDATA[2145]]></gid>
     <type><![CDATA[X]]></type>
     <title><![CDATA[question01]]></title>
-    <question><![CDATA[<div id="anim_desc">
+    <question><![CDATA[<script type="text/javascript" src="mango/mango_trust/scripts/plugin.js"></script>
+<div id="anim_desc">
 	Dans cette partie, des groupes de 2 participants (vous-même et 1 autre participant) sont formés par tirage au sort. Chaque groupe comporte un participant A et un participant B. Votre rôle (participant A ou B) est indiqué au moment de prendre votre décision.<br />
 	<br />
 	<u><b>Rappel:</b></u> Le participant qui appartient à votre groupe au cours de cette partie <b>est différent</b> de ceux que vous rencontrez dans les autres parties de l'étude.<br />
@@ -106,7 +107,10 @@
 	</div>
 </div>
 <div class="deroulement" id="eiContainer">
-	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" height="330" id="ExternalInterfaceExample" width="600"><param name="movie" value="/mango/mango_trust/animations/trust_description_fr.swf" /><param name="quality" value="high" /><param name="allowScriptAccess" value="sameDomain" /><embed align="middle" allowscriptaccess="sameDomain" height="330" loop="false" name="ExternalInterfaceExample" play="true" quality="high" src="/mango/mango_trust/animations/trust_description_fr.swf" type="application/x-shockwave-flash" width="600" wmode="transparent"></embed></object></div>
+	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" height="330" id="ExternalInterfaceExample" width="600"><param name="movie" value="/mango/mango_trust/animations/trust_description_fr.swf" /><param name="quality" value="high" /><param name="allowScriptAccess" value="sameDomain" /><embed align="middle" allowscriptaccess="sameDomain" height="330" loop="false" name="ExternalInterfaceExample" play="true" quality="high" src="/mango/mango_trust/animations/trust_description_fr.swf" type="application/x-shockwave-flash" width="600" wmode="transparent"></embed></object>
+	<div class="start_animation">
+		<img alt="Start Animation" src="mango/mango_dictator/images/start_animation.png" /></div>
+</div>
 ]]></question>
     <preg/>
     <help/>
@@ -282,7 +286,7 @@
 			}
 		}
 		if (unamounted == true) {
-			alert("To run the simulation, choose an amount for each participant.");
+			alert("Pour lancer la simulation, choisissez un montant pour chaque participant.");
 		} else {
 			submitMoney()
 		}
@@ -477,11 +481,11 @@
     <question><![CDATA[<script type="text/javascript">
 	var help = "<br/>Dans cette partie, des groupes de 2 participants (vous-même et 1 autre   participant) sont formés par tirage au sort. Chaque groupe comporte un   participant A et un participant B. Votre rôle (participant A ou B) est indiqué au moment de prendre votre décision.<br/><br/><u><b>Rappel:</b></u> Le participant qui appartient à votre groupe au  cours de  cette partie <b>est différent</b> de ceux que vous rencontrez dans les autres parties de l'étude.<br/><br/><b>Au début de cette partie, chacun des deux participants reçoit 10€.<br/><br/>Le participant A  doit décider combien d’euros pris  sur cette somme  sont envoyés au participant B. Le montant envoyé par le participant A est multiplié par 3. Ainsi, pour chaque euro que le participant A décide d'envoyer, le participant B reçoit 3€. <br/><br/>Le participant B doit ensuite décider du montant renvoyé au participant A. Pour ce faire, avant de connaître la décision du participant A, le participant B doit décider pour chacun des montants que le participant A pourrait lui envoyer (tous les nombres entre 1 et 10) de la somme qu'il lui renverra.</b><br/><br/><br/><div style='text-align: center;'><b><u>Ainsi, le gain en euros du  participant A pour cette partie est donné par:</u><br/><br/><i>10 - (montant en  euros envoyé au participant B) + (montant en euros renvoyé par le participant B)</i><br/><br/><br/><u>Le gain en euros du participant B pour cette partie est donné par:</u><br/><br/><i>10 + (montant en euros envoyé par le participant A) x3 - (montant en euros renvoyé au participant A)</i></b></div>";
 
-	$(document).ready(
-		function(){
-			$('#anim_sentence').after($('.asterisque'));
-		}
-	);
+$(document).ready(
+	function(){
+		$('#anim_sentence').after($('.asterisque'));
+	}
+);
 </script>
 <div id="anim_sentence" style="text-align: center;">
 	<span style="display: table-cell; vertical-align: middle;"><img alt="" height="32px" src="/upload/surveys/57263/warning.png" width="32px" /> </span> <span style="display: table-cell; vertical-align: middle;"> <strong>Ceci est un écran de décision. Une fois que vous aurez pris votre décision et cliqué sur le bouton "Suivant", vous ne pourrez plus revenir à cet écran.</strong> </span> <span style="display: table-cell; vertical-align: middle;"> <img alt="" height="32px" src="/upload/surveys/57263/warning.png" width="32px" /> </span></div>
@@ -504,7 +508,8 @@ Vous avez 10€ en votre possession. Combien voulez-vous envoyer au participant 
     <gid><![CDATA[2208]]></gid>
     <type><![CDATA[X]]></type>
     <title><![CDATA[question00]]></title>
-    <question><![CDATA[<script type="text/javascript" src="mango/mango_dictator/scripts/countUp.min.js"></script><script type="text/javascript">
+    <question><![CDATA[<p>
+	<script type="text/javascript" src="mango/mango_trust/scripts/countUp.min.js"></script><script type="text/javascript">
 $(document).ready(
 	function() {
 		$.ajax({
@@ -530,10 +535,16 @@ $(document).ready(
 		);
 	}
 );
-</script>Vous avez été matché avec le participant
+</script><strong>Dans la Tâche 2, des groupes de 2 participants (vous-même et un autre participant) sont formés par tirage au sort.</strong></p>
+<p>
+	Pour la Tâche 2, vous avez été associé au participant numéro</p>
 <div id="counter_0" style="display: inline;">
 	&nbsp;</div>
-.]]></question>
+<p>
+	&nbsp;</p>
+<p>
+	<u>Rappel :</u> Le participant auquel vous êtes associé pour cette tâche est différent de votre partenaire dans la Tâche 1 et de vos partenaires dans la Tâche 3.</p>
+]]></question>
     <preg/>
     <help/>
     <other><![CDATA[N]]></other>
@@ -571,7 +582,7 @@ $(document).ready(
     <qid><![CDATA[7704]]></qid>
     <sid><![CDATA[914824]]></sid>
     <gid><![CDATA[2148]]></gid>
-    <type><![CDATA[T]]></type>
+    <type><![CDATA[K]]></type>
     <title><![CDATA[1]]></title>
     <question/>
     <other><![CDATA[N]]></other>
@@ -583,6 +594,41 @@ $(document).ready(
    </row>
   </rows>
  </subquestions>
+ <question_attributes>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>attribute</fieldname>
+   <fieldname>value</fieldname>
+   <fieldname>language</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[7703]]></qid>
+    <attribute><![CDATA[slider_layout]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[7703]]></qid>
+    <attribute><![CDATA[slider_max]]></attribute>
+    <value><![CDATA[10]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[7703]]></qid>
+    <attribute><![CDATA[slider_middlestart]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[7703]]></qid>
+    <attribute><![CDATA[slider_min]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[7703]]></qid>
+    <attribute><![CDATA[slider_showminmax]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+  </rows>
+ </question_attributes>
  <surveys>
   <fields>
    <fieldname>sid</fieldname>
