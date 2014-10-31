@@ -87,6 +87,16 @@
     <randomization_group/>
     <grelevance/>
    </row>
+   <row>
+    <gid><![CDATA[2267]]></gid>
+    <sid><![CDATA[876211]]></sid>
+    <group_name><![CDATA[Fin]]></group_name>
+    <group_order><![CDATA[7]]></group_order>
+    <description/>
+    <language><![CDATA[fr]]></language>
+    <randomization_group/>
+    <grelevance/>
+   </row>
   </rows>
  </groups>
  <questions>
@@ -117,13 +127,9 @@
     <title><![CDATA[question01]]></title>
     <question><![CDATA[<script type="text/javascript" src="mango/mango_dictator/scripts/plugin.js"></script>
 <div id="anim_desc">
-	Dans ce jeu, des groupes de 4 participants (vous-même et 3 autres participants) sont formés par tirage au sort.</div>
-<div>
 	&nbsp;</div>
 <div>
-	<u><b><span class="il">Rappel </span>:</b></u>&nbsp;Les participants qui appartiennent à votre groupe au cours de cette partie&nbsp;<b>sont différents</b>&nbsp;de ceux que vous rencontrez dans les autres parties de l’étude.<br />
-	<br />
-	<b>Au début de la partie, chaque membre du groupe reçoit 10€.</b> Chacun des membres du groupe doit choisir combien d'euros il conserve et combien il investit dans un projet commun.</div>
+	<b>Au début de la tâche, chaque membre du groupe reçoit 10€.</b> Chacun des membres du groupe doit choisir combien d'euros il conserve et combien il investit dans un projet commun.</div>
 <div>
 	&nbsp;</div>
 <div>
@@ -141,6 +147,8 @@
 	<div class="start_animation">
 		<img alt="Start Animation" src="mango/mango_dictator/images/start_animation.png" /></div>
 </div>
+<p>
+	&nbsp;</p>
 ]]></question>
     <preg/>
     <help/>
@@ -162,13 +170,12 @@
     <question><![CDATA[<p>
 	<script type="text/javascript">
 var help = "<br/>Dans cette partie, des groupes de 4 participants (vous-même et 3 autres participants) sont formés par tirage au sort.<br/><br/><u><b>Rappel:</b></u> Les participants qui appartiennent à votre groupe au cours de cette partie <b>sont différents</b> de ceux que vous rencontrez dans les autres parties de l'étude.<br/><br/><b>Au début de cette partie, chaque membre du groupe reçoit 10€.<br/><br/>Chacun des membres du groupe doit ensuite choisir combien d'euros il conserve et combien il investit dans un projet commun.<br/><br/>Chaque euro investi dans le projet commun par un membre du groupe rapporte 0.4€ à chacun des 4 membres du groupe (vous y compris). Autrement dit, le montant total des contributions au projet commun est multiplié par 1,6 avant d'être réparti équitablement entre les 4 membres du groupe.</b><br/><br/><br/><div style='text-align: center;'><u><b>Ainsi, votre gain en euros pour cette partie est donné par:</b></u><b><br/><br/></b><i><b>10 - (votre contribution au projet commun) + 0.4 x (contribution totale au projet commun)</b></i></div>";
-</script>
-	Dans la page suivante, vous aurez la possibilité de tester le jeu avant de prendre votre décision.</p>
+</script>Dans la page suivante, vous aurez la possibilité de tester le jeu avant de prendre votre décision.</p>
 <p>
 	<strong>Prenez le temps de tester au moins 3 exemples</strong>.</p>
 ]]></question>
     <preg/>
-    <help><![CDATA[<span class="aide">Vous pouvez à tout moment consulter les règles du jeu en cliquant sur le bouton "?" (à gauche)</span>]]></help>
+    <help/>
     <other><![CDATA[N]]></other>
     <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[0]]></question_order>
@@ -464,7 +471,7 @@ var help = "<br/>Dans cette partie, des groupes de 4 participants (vous-même et
 	);
 </script>]]></question>
     <preg/>
-    <help><![CDATA[<span class="aide">Vous pouvez à tout moment consulter les règles du jeu en cliquant sur le bouton "?" (à gauche)</span>]]></help>
+    <help/>
     <other><![CDATA[N]]></other>
     <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[0]]></question_order>
@@ -495,7 +502,7 @@ var help = "<br/>Dans cette partie, des groupes de 4 participants (vous-même et
 Une fois que vous aurez pris ces deux décisions, <b>la décision qui sera utilisée pour déterminer votre contribution et calculer vos gains dans cette partie sera tirée au sort.</b> Vous devrez donc réfléchir attentivement à chaque type de décision.<br />
 ]]></question>
     <preg/>
-    <help><![CDATA[<span class="aide">Vous pouvez à tout moment consulter les règles du jeu en cliquant sur le bouton "?" (à gauche)</span>]]></help>
+    <help/>
     <other><![CDATA[N]]></other>
     <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[0]]></question_order>
@@ -523,7 +530,7 @@ $(document).ready(
 	<span style="display: table-cell; vertical-align: middle;"><img alt="" height="32px" src="/upload/surveys/57263/warning.png" width="32px" /></span> <span style="display: table-cell; vertical-align: middle;"><strong>Ceci est un écran de décision. Une fois que vous aurez pris votre décision et cliqué sur le bouton "Suivant", vous ne pourrez plus revenir à cet écran.</strong></span> <span style="display: table-cell; vertical-align: middle;"><img alt="" height="32px" src="/upload/surveys/57263/warning.png" width="32px" /></span></div>
 Vous avez 10€ en votre possession. Combien voulez-vous investir dans le projet commun?]]></question>
     <preg/>
-    <help><![CDATA[<span class="aide">Vous pouvez à tout moment consulter les règles du jeu en cliquant sur le bouton "?" (à gauche)</span>]]></help>
+    <help/>
     <other><![CDATA[N]]></other>
     <mandatory><![CDATA[Y]]></mandatory>
     <question_order><![CDATA[0]]></question_order>
@@ -622,7 +629,7 @@ Pour chaque contribution moyenne possible des autres membres du groupe, combien 
 </table>
 ]]></question>
     <preg/>
-    <help><![CDATA[<span class="aide">Vous pouvez à tout moment consulter les règles du jeu en cliquant sur le bouton "?" (à gauche)</span>]]></help>
+    <help/>
     <other><![CDATA[N]]></other>
     <mandatory><![CDATA[Y]]></mandatory>
     <question_order><![CDATA[0]]></question_order>
@@ -664,7 +671,10 @@ $(document).ready(
 		);
 	}
 );
-</script>Vous avez été associé au participant
+</script><span style="font-size:14px;"><strong>Dans la Tâche 3, des groupes de 4 participants (vous-même et 3 autres participants) sont formés par tirage au sort.</strong></span><br />
+<p>
+	&nbsp;</p>
+Vous avez été associé au participant
 <div id="counter_0" style="display: inline;">
 	&nbsp;</div>
 .<br />
@@ -676,12 +686,36 @@ Vous avez été associé au participant
 <div id="counter_2" style="display: inline;">
 	&nbsp;</div>
 .<br />
+<p>
+	<u>Rappel :</u> Les participants qui appartiennent à votre groupe au cours de cette tâche sont différents de ceux que vous avez rencontrés dans les tâches 1 et 2.</p>
 ]]></question>
     <preg/>
     <help/>
     <other><![CDATA[N]]></other>
     <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+   <row>
+    <qid><![CDATA[9591]]></qid>
+    <sid><![CDATA[876211]]></sid>
+    <gid><![CDATA[2267]]></gid>
+    <type><![CDATA[X]]></type>
+    <title><![CDATA[question00]]></title>
+    <question><![CDATA[<p>
+	Bravo ! Vous avez terminé la Tâche 3.</p>
+<p>
+	Vous allez maintenant remplir trois questionnaires. Une fois les questionnaires remplis, la Session 2 sera terminée !</p>
+]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[0]]></question_order>
     <language><![CDATA[fr]]></language>
     <parent_qid><![CDATA[0]]></parent_qid>
     <scale_id><![CDATA[0]]></scale_id>
@@ -1002,12 +1036,12 @@ Vous avez été associé au participant
     <usecookie><![CDATA[Y]]></usecookie>
     <allowregister><![CDATA[N]]></allowregister>
     <allowsave><![CDATA[N]]></allowsave>
-    <autonumber_start><![CDATA[28]]></autonumber_start>
+    <autonumber_start><![CDATA[1]]></autonumber_start>
     <autoredirect><![CDATA[Y]]></autoredirect>
     <allowprev><![CDATA[N]]></allowprev>
     <printanswers><![CDATA[N]]></printanswers>
-    <ipaddr><![CDATA[N]]></ipaddr>
-    <refurl><![CDATA[Y]]></refurl>
+    <ipaddr><![CDATA[Y]]></ipaddr>
+    <refurl><![CDATA[N]]></refurl>
     <publicstatistics><![CDATA[N]]></publicstatistics>
     <publicgraphs><![CDATA[N]]></publicgraphs>
     <listpublic><![CDATA[N]]></listpublic>
@@ -1027,14 +1061,14 @@ Vous avez été associé au participant
     <showqnumcode><![CDATA[X]]></showqnumcode>
     <bounceprocessing><![CDATA[N]]></bounceprocessing>
     <showwelcome><![CDATA[N]]></showwelcome>
-    <showprogress><![CDATA[Y]]></showprogress>
+    <showprogress><![CDATA[N]]></showprogress>
     <navigationdelay><![CDATA[0]]></navigationdelay>
     <nokeyboard><![CDATA[N]]></nokeyboard>
     <alloweditaftercompletion><![CDATA[N]]></alloweditaftercompletion>
     <emailnotificationto/>
     <googleanalyticsstyle><![CDATA[0]]></googleanalyticsstyle>
     <googleanalyticsapikey/>
-    <sendconfirmation><![CDATA[Y]]></sendconfirmation>
+    <sendconfirmation><![CDATA[N]]></sendconfirmation>
     <questionindex><![CDATA[0]]></questionindex>
    </row>
   </rows>
@@ -1074,7 +1108,7 @@ Vous avez été associé au participant
     <surveyls_description/>
     <surveyls_welcometext/>
     <surveyls_endtext/>
-    <surveyls_url><![CDATA[http://grebdioz.sciences-po.fr/mango/mango_surveys_router/services/plugin.php?token={TOKEN}&sid={SID}&redirect]]></surveyls_url>
+    <surveyls_url><![CDATA[mango/mango_surveys_router/services/plugin.php?token={TOKEN}&sid={SID}&lang={SURVEYLANGUAGE}&redirect]]></surveyls_url>
     <surveyls_urldescription/>
     <surveyls_email_invite_subj><![CDATA[Invitation à participer à un questionnaire]]></surveyls_email_invite_subj>
     <surveyls_email_invite><![CDATA[Cher(e) {FIRSTNAME},<br />
