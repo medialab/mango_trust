@@ -139,7 +139,7 @@
 <div>
 	<strong>Enfin, l'argent obtenu est redivisé équitablement</strong> entre les 4 membres du groupe (vous y compris).&nbsp;<br />
 	<br />
-	Pour mieux comprendre, regardez attentivement l'animation ci-dessous :</div>
+	Pour mieux comprendre, regardez attentivement l'animation ci-dessous. Dans la page suivante, vous aurez la possibilité de tester le jeu avant de prendre votre décision.</div>
 <div>
 	&nbsp;</div>
 <div class="deroulement" id="eiContainer">
@@ -553,7 +553,7 @@ $(document).ready(
       $('#anim_sentence').after($('.asterisque'));
       $('#question{QID} input').width('23px');
       $("#question{QID} thead").remove();
-      $("#movesubmitbtn").click(
+      $("#movenextbtn").click(
          function(event) {
             if($('#answer{SGQ}1_1').val() > 10 
                || $('#answer{SGQ}1_2').val() > 10
@@ -567,7 +567,6 @@ $(document).ready(
                || $('#answer{SGQ}1_10').val() > 10
                || $('#answer{SGQ}1_11').val() > 10) {
                alert('Vous ne pouvez pas investir plus de 10€!');
-               // event.preventDefault();
                return false;
             } else {
                if($('#answer{SGQ}1_1').val() != parseInt($('#answer{SGQ}1_1').val())
@@ -582,7 +581,6 @@ $(document).ready(
                   || $('#answer{SGQ}1_10').val() != parseInt($('#answer{SGQ}1_10').val())
                   || $('#answer{SGQ}1_11').val() != parseInt($('#answer{SGQ}1_11').val())) {
                   alert('Seuls les entiers sont acceptés!');
-                  // event.preventDefault();
                   return false;
                }
             }
@@ -709,7 +707,9 @@ Vous avez été associé au participant
     <question><![CDATA[<p>
 	Bravo ! Vous avez terminé la Tâche 3.</p>
 <p>
-	Vous allez maintenant remplir trois questionnaires. Une fois les questionnaires remplis, la Session 2 sera terminée !</p>
+	Vous allez maintenant remplir trois questionnaires pendant que vos gains sont calculés.</p>
+<p>
+	Une fois les questionnaires remplis, la Session 2 sera terminée et vous serez informés de vos gains !</p>
 ]]></question>
     <preg/>
     <help/>

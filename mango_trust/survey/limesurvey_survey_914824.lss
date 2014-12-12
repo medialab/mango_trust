@@ -111,7 +111,7 @@
 		<div style="text-align: center;">
 			&nbsp;</div>
 		<div style="text-align: left;">
-			Pour mieux comprendre, regardez attentivement l'animation ci-dessous :</div>
+			Pour mieux comprendre, regardez attentivement l'animation ci-dessous. Dans la page suivante, vous aurez la possibilité de tester le jeu avant de prendre votre décision.</div>
 		<div style="text-align: center;">
 			&nbsp;</div>
 	</div>
@@ -121,6 +121,8 @@
 	<div class="start_animation">
 		<img alt="Start Animation" src="mango/mango_dictator/images/start_animation.png" /></div>
 </div>
+<p>
+	&nbsp;</p>
 ]]></question>
     <preg/>
     <help/>
@@ -747,7 +749,7 @@ $(document).ready(
     <emailresponseto/>
     <tokenlength><![CDATA[15]]></tokenlength>
     <savetimings><![CDATA[Y]]></savetimings>
-    <showxquestions><![CDATA[Y]]></showxquestions>
+    <showxquestions><![CDATA[N]]></showxquestions>
     <showgroupinfo><![CDATA[B]]></showgroupinfo>
     <shownoanswer><![CDATA[Y]]></shownoanswer>
     <showqnumcode><![CDATA[X]]></showqnumcode>
